@@ -8,7 +8,7 @@ class KelasController extends BaseController
     public function index()
     {
         
-                                $data['title'] = 'Kelas';
+                        $data['title'] = 'Kelas';
                         $data['nav_url'] = 'Kelas';
 
                     $data['content_scripts'][] = '/js/kelas/index.js';

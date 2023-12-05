@@ -36,7 +36,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'db_pembelian',
+        'database' => 'db_schid',
         'DBDriver' => 'Mysqli',
         'DBPrefix' => '',
         'pConnect' => false,
