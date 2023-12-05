@@ -1,0 +1,89 @@
+CRITICAL - 2023-01-30 14:58:35 --> Undefined property: App\Controllers\Transaction::$input
+in APPPATH\Controllers\Transaction.php on line 139.
+ 1 APPPATH\Controllers\Transaction.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Transaction::$input', 'APPPATH\\Controllers\\Transaction.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:00:12 --> Undefined property: App\Controllers\Transaction::$transaction
+in APPPATH\Controllers\Transaction.php on line 140.
+ 1 APPPATH\Controllers\Transaction.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Transaction::$transaction', 'APPPATH\\Controllers\\Transaction.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:02:30 --> Array to string conversion
+in APPPATH\Controllers\Transaction.php on line 141.
+ 1 APPPATH\Controllers\Transaction.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Transaction.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:14:46 --> Call to a member function orderby() on array
+in APPPATH\Models\TransaksiModel.php on line 139.
+ 1 APPPATH\Controllers\Transaction.php(33): App\Models\TransaksiModel->getdatatransaction('2023-01-30')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:17:55 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Transaction\index.php on line 95.
+ 1 APPPATH\Views\Transaction\index.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\Transaction\\index.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(38): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily('2023-01-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:18:15 --> Call to a member function getResultArray() on null
+in APPPATH\Models\TransaksiModel.php on line 139.
+ 1 APPPATH\Controllers\Transaction.php(33): App\Models\TransaksiModel->getdatatransaction('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily('2023-01-27')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:18:25 --> Call to a member function getResultArray() on null
+in APPPATH\Models\TransaksiModel.php on line 139.
+ 1 APPPATH\Controllers\Transaction.php(33): App\Models\TransaksiModel->getdatatransaction('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily('2023-01-27')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:18:40 --> Call to a member function get() on null
+in APPPATH\Models\TransaksiModel.php on line 139.
+ 1 APPPATH\Controllers\Transaction.php(33): App\Models\TransaksiModel->getdatatransaction('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily('2023-01-27')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:18:49 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Transaction\index.php on line 95.
+ 1 APPPATH\Views\Transaction\index.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\Transaction\\index.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(38): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily('2023-01-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:24:04 --> The route for "http://localhost/lola/public/transaction" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/lola/public/transaction')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Transaction.php(135): redirect('http://localhost/lola/public/transaction')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-30 15:27:15 --> The route for "http://localhost/lola/public/transaction" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/lola/public/transaction')
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Transaction.php(135): redirect('http://localhost/lola/public/transaction')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

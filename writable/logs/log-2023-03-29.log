@@ -1,0 +1,12 @@
+CRITICAL - 2023-03-29 10:46:38 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+in APPPATH\Views\Report-Bending\print_report.php on line 178.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format(): Passing null to parameter #1 ($num) of type float is deprecated', 'APPPATH\\Views\\Report-Bending\\print_report.php', 178)
+ 2 APPPATH\Views\Report-Bending\print_report.php(178): number_format(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\print_report.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 6 APPPATH\Controllers\ReportBending.php(75): view('Report-Bending/print_report', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('4')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

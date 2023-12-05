@@ -1,0 +1,519 @@
+CRITICAL - 2023-02-15 10:11:00 --> Call to undefined method App\Models\TransaksiModel::getdatareport
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Report.php(39): CodeIgniter\Model->__call('getdatareport', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 10:14:00 --> Undefined variable $users
+in APPPATH\Views\Report\index.php on line 23.
+ 1 APPPATH\Views\Report\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\Report\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/index', [], true)
+ 5 APPPATH\Controllers\Report.php(44): view('report/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 10:15:05 --> Undefined variable $id
+in APPPATH\Views\Report\index.php on line 104.
+ 1 APPPATH\Views\Report\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\Report\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/index', [], true)
+ 5 APPPATH\Controllers\Report.php(44): view('report/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 10:30:03 --> Undefined variable $dates
+in APPPATH\Views\templates\footer.php on line 69.
+ 1 APPPATH\Views\templates\footer.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dates', 'APPPATH\\Views\\templates\\footer.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Report.php(45): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 10:30:13 --> Undefined variable $max_date
+in APPPATH\Views\templates\footer.php on line 70.
+ 1 APPPATH\Views\templates\footer.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $max_date', 'APPPATH\\Views\\templates\\footer.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(39): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 10:39:51 --> Undefined variable $dates
+in APPPATH\Views\Report\index.php on line 21.
+ 1 APPPATH\Views\Report\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dates', 'APPPATH\\Views\\Report\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/index', [], true)
+ 5 APPPATH\Controllers\Report.php(44): view('report/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 10:48:23 --> Cannot use temporary expression in write context
+in APPPATH\Controllers\Report.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-02-15 11:28:30 --> mysqli_sql_exception: Unknown column 'data_create' in 'where clause' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Models\TransaksiModel.php(147): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\app\Controllers\Report.php(40): App\Models\TransaksiModel->getdatareport('2023-02-01', '2023-02-28')
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Report->index()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-15 11:28:30 --> Unknown column 'data_create' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5etransaksi`
+WHERE `data_create` BETWEEN \'2023-02-01\' AND \'2023-02-28\' 
+AND `transaksi_delete` IS NULL
+ORDER BY `transaksi_id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5etransaksi`
+WHERE `data_create` BETWEEN \'2023-02-01\' AND \'2023-02-28\' 
+AND `transaksi_delete` IS NULL
+ORDER BY `transaksi_id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5etransaksi`
+WHERE `data_create` BETWEEN \'2023-02-01\' AND \'2023-02-28\' 
+AND `transaksi_delete` IS NULL
+ORDER BY `transaksi_id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5etransaksi`
+WHERE `data_create` BETWEEN \'2023-02-01\' AND \'2023-02-28\' 
+AND `transaksi_delete` IS NULL
+ORDER BY `transaksi_id` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransaksiModel.php(147): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Report.php(40): App\Models\TransaksiModel->getdatareport('2023-02-01', '2023-02-28')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 13:22:08 --> Undefined variable $prev_date_uri
+in APPPATH\Views\Report\index.php on line 13.
+ 1 APPPATH\Views\Report\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prev_date_uri', 'APPPATH\\Views\\Report\\index.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/index', [], true)
+ 5 APPPATH\Controllers\Report.php(45): view('report/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 13:31:47 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH\Controllers\Report.php on line 38.
+ 1 APPPATH\Controllers\Report.php(38): date_format('2023-02-15', 'd-m-Y')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:38:36 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Report.php on line 57.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Report.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Report')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Report')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Report', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:38:52 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-02-28')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:38:59 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-02-28')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:41:28 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-02-28')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:42:37 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-15', '2023-02-09')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:43:37 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-15', '2023-02-09,Wed Feb 15 2023 14:43:35 GMT 0700')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:44:04 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-15', '2023-02-09')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:44:31 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-15', '2023-02-14')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:45:57 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Report.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Report.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Report')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Report')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Report', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:47:20 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-09', '2023-02-15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:48:27 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-09', '2023-02-15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:48:37 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-09', '2023-02-15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:49:33 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-09', '2023-02-15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:49:40 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-09', '2023-02-15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:51:36 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('01 Feb 2023', '28 Feb 2023')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:53:35 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-02-28')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:53:53 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-09', '2023-02-15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:53:58 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-14', '2023-02-14')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:54:08 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-03-21')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:55:01 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-03-21')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:56:05 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-03-21')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:56:09 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-03-21')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 14:57:14 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printreportData('2023-02-01', '2023-03-21')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:02:37 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printReportData('2023-02-01', '2023-03-21')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:03:47 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printReportData('2023-02-01', '2023-03-21')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:05:52 --> Undefined variable $user
+in APPPATH\Views\Report\print_report.php on line 154.
+ 1 APPPATH\Views\Report\print_report.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\Report\\print_report.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report/print_report', [], true)
+ 5 APPPATH\Controllers\Report.php(65): view('Report/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->printReportData('2023-02-01', '2023-03-21')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:27:38 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-02-09', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:27:45 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-02-09', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:27:55 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-02-09', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:28:04 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-02-09', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:28:10 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-02-09', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:30:46 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-02-09', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:31:58 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-02-09', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:32:28 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-01-17', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 15:34:02 --> Undefined variable $date
+in APPPATH\Controllers\Report.php on line 124.
+ 1 APPPATH\Controllers\Report.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $date', 'APPPATH\\Controllers\\Report.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Report->exportCsv('2023-01-17', '2023-02-15')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 16:26:29 --> Class "App\Models\ClientLogModel" not found
+in APPPATH\Controllers\BaseController.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 16:32:42 --> Undefined array key "clientid"
+in APPPATH\Views\ClientLog\index.php on line 44.
+ 1 APPPATH\Views\ClientLog\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clientid"', 'APPPATH\\Views\\ClientLog\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ClientLog\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ClientLog/index', [], true)
+ 5 APPPATH\Controllers\ClientLog.php(27): view('ClientLog/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClientLog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientLog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 16:33:15 --> Undefined array key "logapi_name"
+in APPPATH\Views\ClientLog\index.php on line 44.
+ 1 APPPATH\Views\ClientLog\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logapi_name"', 'APPPATH\\Views\\ClientLog\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ClientLog\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ClientLog/index', [], true)
+ 5 APPPATH\Controllers\ClientLog.php(27): view('ClientLog/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClientLog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientLog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 16:33:26 --> Undefined array key "clientid"
+in APPPATH\Views\ClientLog\index.php on line 92.
+ 1 APPPATH\Views\ClientLog\index.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clientid"', 'APPPATH\\Views\\ClientLog\\index.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ClientLog\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('ClientLog/index', [], true)
+ 5 APPPATH\Controllers\ClientLog.php(27): view('ClientLog/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ClientLog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientLog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 16:34:23 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\ClientLog.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ClientLog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ClientLog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ClientLog')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\ClientLog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

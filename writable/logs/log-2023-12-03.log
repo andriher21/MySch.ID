@@ -1,0 +1,190 @@
+ERROR - 2023-12-03 13:29:49 --> mysqli_sql_exception: Table 'db_schid.tbl_barang' doesn't exist in C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, b.q...', 0)
+#1 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.q...')
+#2 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.q...')
+#3 C:\xampp\htdocs\myschid\app\Models\BarangModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.q...')
+#4 C:\xampp\htdocs\myschid\app\Controllers\BarangController.php(19): App\Models\BarangModel->selectall()
+#5 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BarangController->index()
+#6 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#7 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myschid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-03 13:29:49 --> Table 'db_schid.tbl_barang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 4 APPPATH\Models\BarangModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 5 APPPATH\Controllers\BarangController.php(19): App\Models\BarangModel->selectall()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-03 13:29:51 --> mysqli_sql_exception: Table 'db_schid.tbl_barang' doesn't exist in C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, b.q...', 0)
+#1 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.q...')
+#2 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.q...')
+#3 C:\xampp\htdocs\myschid\app\Models\BarangModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.q...')
+#4 C:\xampp\htdocs\myschid\app\Controllers\BarangController.php(19): App\Models\BarangModel->selectall()
+#5 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BarangController->index()
+#6 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#7 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myschid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-03 13:29:51 --> Table 'db_schid.tbl_barang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 4 APPPATH\Models\BarangModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 5 APPPATH\Controllers\BarangController.php(19): App\Models\BarangModel->selectall()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-03 13:29:55 --> mysqli_sql_exception: Table 'db_schid.tbl_barang' doesn't exist in C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, b.q...', 0)
+#1 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.q...')
+#2 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.q...')
+#3 C:\xampp\htdocs\myschid\app\Models\BarangModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.q...')
+#4 C:\xampp\htdocs\myschid\app\Controllers\BarangController.php(19): App\Models\BarangModel->selectall()
+#5 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BarangController->index()
+#6 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#7 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myschid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-03 13:29:55 --> Table 'db_schid.tbl_barang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 4 APPPATH\Models\BarangModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 5 APPPATH\Controllers\BarangController.php(19): App\Models\BarangModel->selectall()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-03 13:38:33 --> mysqli_sql_exception: Table 'db_schid.tbl_barang' doesn't exist in C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, b.q...', 0)
+#1 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.q...')
+#2 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.q...')
+#3 C:\xampp\htdocs\myschid\app\Models\BarangModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.q...')
+#4 C:\xampp\htdocs\myschid\app\Controllers\BarangController.php(19): App\Models\BarangModel->selectall()
+#5 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BarangController->index()
+#6 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#7 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myschid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-03 13:38:33 --> Table 'db_schid.tbl_barang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 4 APPPATH\Models\BarangModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT a.*, b.qtybeli FROM tbl_barang a LEFT JOIN tbl_stock b ON a.kodebrg = b.kodebrg')
+ 5 APPPATH\Controllers\BarangController.php(19): App\Models\BarangModel->selectall()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-03 14:45:19 --> Undefined variable $sess
+in APPPATH\Views\templates\topbar.php on line 19.
+ 1 APPPATH\Views\templates\topbar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sess', 'APPPATH\\Views\\templates\\topbar.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/topbar', [], true)
+ 5 APPPATH\Controllers\SiswaController.php(20): view('templates/topbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-03 20:22:35 --> email is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 316.
+ 1 SYSTEMPATH\Validation\Validation.php(316): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('email')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'luqman@webmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SiswaController.php(33): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SiswaController->createsave()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-03 20:23:08 --> email is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 316.
+ 1 SYSTEMPATH\Validation\Validation.php(316): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('email')
+ 2 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('email', 'email', 'luqman@gmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\SiswaController.php(33): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SiswaController->createsave()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-03 20:25:35 --> Undefined array key "nama-siswa"
+in APPPATH\Views\Siswa\index.php on line 80.
+ 1 APPPATH\Views\Siswa\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama-siswa"', 'APPPATH\\Views\\Siswa\\index.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Siswa/index', [], true)
+ 5 APPPATH\Controllers\SiswaController.php(21): view('Siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-03 20:41:02 --> Undefined array key "kode_barang"
+in APPPATH\Views\Siswa\index.php on line 77.
+ 1 APPPATH\Views\Siswa\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_barang"', 'APPPATH\\Views\\Siswa\\index.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Siswa/index', [], true)
+ 5 APPPATH\Controllers\SiswaController.php(21): view('Siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-03 21:25:08 --> Undefined property: App\Controllers\SiswaController::$barang
+in APPPATH\Controllers\SiswaController.php on line 228.
+ 1 APPPATH\Controllers\SiswaController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SiswaController::$barang', 'APPPATH\\Controllers\\SiswaController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SiswaController->editsave()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-03 21:26:53 --> mysqli_sql_exception: Duplicate entry '32321' for key 'nisn' in C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_sis...', 0)
+#1 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_sis...')
+#2 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_sis...')
+#3 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_sis...', Array, false)
+#4 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\Model.php(692): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\myschid\app\Models\SiswaModel.php(51): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\myschid\app\Controllers\SiswaController.php(228): App\Models\SiswaModel->updateData(NULL, Array)
+#9 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\SiswaController->editsave()
+#10 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+#11 C:\xampp\htdocs\myschid\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\myschid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-03 21:26:53 --> Duplicate entry '32321' for key 'nisn'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_siswa` SET `nisn` = \'32321\', `nama_siswa` = \'Aditya\', `email` = \'aditya@webmail.com\', `telephone` = \'089674645\', `tempat_lahir` = \'yogyakarta\', `tanggal_lahir` = \'2010-03-10\', `jenis_kelamin` = \'L\', `agama` = \'Islam\', `alamat` = \'magelang\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_siswa` SET `nisn` = \'32321\', `nama_siswa` = \'Aditya\', `email` = \'aditya@webmail.com\', `telephone` = \'089674645\', `tempat_lahir` = \'yogyakarta\', `tanggal_lahir` = \'2010-03-10\', `jenis_kelamin` = \'L\', `agama` = \'Islam\', `alamat` = \'magelang\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_siswa` SET `nisn` = \'32321\', `nama_siswa` = \'Aditya\', `email` = \'aditya@webmail.com\', `telephone` = \'089674645\', `tempat_lahir` = \'yogyakarta\', `tanggal_lahir` = \'2010-03-10\', `jenis_kelamin` = \'L\', `agama` = \'Islam\', `alamat` = \'magelang\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_siswa` SET `nisn` = :nisn:, `nama_siswa` = :nama_siswa:, `email` = :email:, `telephone` = :telephone:, `tempat_lahir` = :tempat_lahir:, `tanggal_lahir` = :tanggal_lahir:, `jenis_kelamin` = :jenis_kelamin:, `agama` = :agama:, `alamat` = :alamat:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Models\SiswaModel.php(51): CodeIgniter\Model->update(null, [...])
+ 9 APPPATH\Controllers\SiswaController.php(228): App\Models\SiswaModel->updateData(null, [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SiswaController->editsave()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-03 21:45:54 --> Undefined property: App\Controllers\SiswaController::$barang
+in APPPATH\Controllers\SiswaController.php on line 237.
+ 1 APPPATH\Controllers\SiswaController.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SiswaController::$barang', 'APPPATH\\Controllers\\SiswaController.php', 237)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\SiswaController->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,46 @@
+ERROR - 2023-11-29 09:33:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\app-pembelian\app\Models\StokModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...', NULL)
+#4 C:\xampp\htdocs\app-pembelian\app\Controllers\PembelianController.php(339): App\Models\StokModel->selectwhere(NULL)
+#5 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\PembelianController->delete()
+#6 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PembelianController))
+#7 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app-pembelian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-29 09:33:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM tbl_stock where kodebrg = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_stock where kodebrg = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_stock where kodebrg = ?')
+ 4 APPPATH\Models\StokModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_stock where kodebrg = ?', null)
+ 5 APPPATH\Controllers\PembelianController.php(339): App\Models\StokModel->selectwhere(null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PembelianController->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-29 09:33:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp\htdocs\app-pembelian\app\Models\StokModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...', NULL)
+#4 C:\xampp\htdocs\app-pembelian\app\Controllers\PembelianController.php(339): App\Models\StokModel->selectwhere(NULL)
+#5 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\PembelianController->delete()
+#6 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PembelianController))
+#7 C:\xampp\htdocs\app-pembelian\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app-pembelian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-29 09:33:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM tbl_stock where kodebrg = ?', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_stock where kodebrg = ?')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_stock where kodebrg = ?')
+ 4 APPPATH\Models\StokModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_stock where kodebrg = ?', null)
+ 5 APPPATH\Controllers\PembelianController.php(339): App\Models\StokModel->selectwhere(null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PembelianController->delete()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

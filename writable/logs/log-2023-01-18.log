@@ -1,0 +1,727 @@
+CRITICAL - 2023-01-18 20:42:04 --> syntax error, unexpected token "="
+in APPPATH\Models\TransaksiModel.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\TransaksiModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\TransaksiModel')
+ 3 APPPATH\Controllers\BaseController.php(62): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\TransaksiModel')
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 20:47:40 --> Undefined property: App\Controllers\Dashboard::$db
+in APPPATH\Controllers\Dashboard.php on line 8.
+ 1 APPPATH\Controllers\Dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$db', 'APPPATH\\Controllers\\Dashboard.php', 8)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 20:52:05 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(23): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 20:52:41 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(23): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 20:54:31 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 20:54:33 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 20:54:39 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:08:16 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:08:17 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:08:18 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:08:19 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:08:42 --> Unclosed '{' on line 8
+in APPPATH\Models\TransaksiModel.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\TransaksiModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\TransaksiModel')
+ 3 APPPATH\Controllers\BaseController.php(62): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\TransaksiModel')
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:09:14 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:10:31 --> Undefined variable $customer
+in APPPATH\Models\TransaksiModel.php on line 99.
+ 1 APPPATH\Models\TransaksiModel.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Models\\TransaksiModel.php', 99)
+ 2 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:11:01 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:21:36 --> Call to undefined function App\Models\get()
+in APPPATH\Models\TransaksiModel.php on line 95.
+ 1 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 21:21:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_dele...' at line 1 in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT C...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT C...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT C...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT C...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\app\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-18 21:21:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_dele...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_delete !=\'null\'
+FROM `5etransaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_delete !=\'null\'
+FROM `5etransaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_delete !=\'null\'
+FROM `5etransaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_delete !=\'null\'
+FROM `5etransaksi`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 21:25:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_dele...' at line 1 in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT C...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT C...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT C...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT C...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\app\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-18 21:25:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_dele...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_delete != Null
+FROM `5etransaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM 5etransaksi where transaksi_delete != Null
+FROM `5etransaksi`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 21:27:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete...' at line 1 in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT C...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT C...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT C...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT C...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\app\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-18 21:27:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 21:27:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete...' at line 1 in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT C...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT C...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT C...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT C...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\app\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-18 21:27:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 21:28:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete...' at line 1 in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT C...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT C...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT C...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT C...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\app\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-18 21:28:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 21:28:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete...' at line 1 in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT C...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT C...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT C...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT C...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\app\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-18 21:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT COUNT(transaksi_id) as transaksi FROM transaksi where transaksi_delete != Null
+FROM `5etransaksi`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:39:51 --> Undefined variable $company
+in APPPATH\Models\TransaksiModel.php on line 99.
+ 1 APPPATH\Models\TransaksiModel.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Models\\TransaksiModel.php', 99)
+ 2 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:40:08 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:40:32 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:40:34 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:40:34 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:40:35 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:40:36 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:40:36 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:43:29 --> syntax error, unexpected identifier "from"
+in APPPATH\Models\TransaksiModel.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\TransaksiModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\TransaksiModel')
+ 3 APPPATH\Controllers\BaseController.php(62): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\TransaksiModel')
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:43:44 --> Undefined variable $db
+in APPPATH\Models\TransaksiModel.php on line 94.
+ 1 APPPATH\Models\TransaksiModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\TransaksiModel.php', 94)
+ 2 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:44:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\TransaksiModel.php on line 95.
+ 1 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:44:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\TransaksiModel.php on line 95.
+ 1 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:46:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\TransaksiModel.php on line 95.
+ 1 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:47:26 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:47:59 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:48:09 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 21:48:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as company) AS COUNT(company) as company
+FROM `5etransaksi`' at line 1 in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(CO...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(CO...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(CO...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(CO...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Models\TransaksiModel.php(96): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\app\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-18 21:48:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as company) AS COUNT(company) as company
+FROM `5etransaksi`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(COUNT(company) as company) AS COUNT(company) as company
+FROM `5etransaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(COUNT(company) as company) AS COUNT(company) as company
+FROM `5etransaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(COUNT(company) as company) AS COUNT(company) as company
+FROM `5etransaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(COUNT(company) as company) AS COUNT(company) as company
+FROM `5etransaksi`', [], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransaksiModel.php(96): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:49:16 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:49:18 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:50:32 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:50:55 --> Call to undefined method App\Models\TransaksiModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\TransaksiModel.php(95): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\Dashboard.php(17): App\Models\TransaksiModel->getCount()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 21:51:02 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:02:26 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:02:28 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:07:30 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\templates\sidebar.php on line 16.
+ 1 APPPATH\Views\templates\sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\templates\\sidebar.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:08:01 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\templates\sidebar.php on line 18.
+ 1 APPPATH\Views\templates\sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'APPPATH\\Views\\templates\\sidebar.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(24): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:11:17 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\templates\sidebar.php on line 18.
+ 1 APPPATH\Views\templates\sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'APPPATH\\Views\\templates\\sidebar.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:39:56 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\templates\sidebar.php on line 19.
+ 1 APPPATH\Views\templates\sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'APPPATH\\Views\\templates\\sidebar.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:40:10 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\templates\sidebar.php on line 20.
+ 1 APPPATH\Views\templates\sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'APPPATH\\Views\\templates\\sidebar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:43:06 --> syntax error, unexpected identifier "var_dump"
+in APPPATH\Views\templates\sidebar.php on line 20.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:43:26 --> Call to undefined method App\Models\NavModel::order_by
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Views\templates\sidebar.php(19): CodeIgniter\Model->__call('order_by', [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:43:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\sidebar.php on line 25.
+ 1 APPPATH\Views\templates\sidebar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\templates\\sidebar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:44:48 --> syntax error, unexpected token "*"
+in APPPATH\Views\templates\sidebar.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:45:02 --> Undefined array key "nama"
+in APPPATH\Views\templates\topbar.php on line 19.
+ 1 APPPATH\Views\templates\topbar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\templates\\topbar.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/topbar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(27): view('templates/topbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 22:46:12 --> Undefined variable $max_date
+in APPPATH\Views\templates\footer.php on line 72.
+ 1 APPPATH\Views\templates\footer.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $max_date', 'APPPATH\\Views\\templates\\footer.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(29): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

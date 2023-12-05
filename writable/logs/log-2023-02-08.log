@@ -1,0 +1,370 @@
+CRITICAL - 2023-02-08 09:45:43 --> Undefined array key 2
+in APPPATH\Controllers\Company.php on line 94.
+ 1 APPPATH\Controllers\Company.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Company.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:01:41 --> Cannot use empty array elements in arrays
+in APPPATH\Controllers\Company.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-08 10:02:18 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:05:46 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:07:10 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:08:10 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:13:32 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:18:35 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:19:09 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:22:24 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 4 APPPATH\Models\CompanyModel.php(56): CodeIgniter\Model->insert([])
+ 5 APPPATH\Controllers\Company.php(122): App\Models\CompanyModel->insertData([])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 10:24:42 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 4 APPPATH\Models\CompanyModel.php(56): CodeIgniter\Model->insert([])
+ 5 APPPATH\Controllers\Company.php(122): App\Models\CompanyModel->insertData([])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:17:40 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:19:37 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:24:22 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:24:34 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:25:20 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:25:51 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:26:15 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:26:59 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:27:01 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:27:06 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:29:41 --> Undefined array key 0
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:36:47 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\CompanyModel.php(56): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Company.php(123): App\Models\CompanyModel->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:38:18 --> Undefined array key "data"
+in APPPATH\Controllers\Company.php on line 115.
+ 1 APPPATH\Controllers\Company.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'APPPATH\\Controllers\\Company.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 11:39:32 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\CompanyModel.php(56): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Company.php(123): App\Models\CompanyModel->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->doImport()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 12:48:03 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tujuan.php on line 103.
+ 1 APPPATH\Controllers\Tujuan.php(103): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 12:49:19 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tujuan.php on line 103.
+ 1 APPPATH\Controllers\Tujuan.php(103): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:10:53 --> Too few arguments to function App\Models\ItemModel::insertData(), 1 passed in C:\xampp\htdocs\lola\app\Controllers\Item.php on line 42 and exactly 2 expected
+in APPPATH\Models\ItemModel.php on line 53.
+ 1 APPPATH\Controllers\Item.php(42): App\Models\ItemModel->insertData([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->add()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:27:39 --> Undefined variable $company
+in APPPATH\Controllers\Item.php on line 110.
+ 1 APPPATH\Controllers\Item.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Item.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:28:25 --> Undefined variable $company
+in APPPATH\Controllers\Item.php on line 110.
+ 1 APPPATH\Controllers\Item.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Item.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:28:46 --> Undefined variable $company
+in APPPATH\Controllers\Item.php on line 110.
+ 1 APPPATH\Controllers\Item.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Item.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:29:04 --> Undefined variable $company
+in APPPATH\Controllers\Item.php on line 110.
+ 1 APPPATH\Controllers\Item.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Item.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:29:46 --> Undefined variable $company
+in APPPATH\Controllers\Item.php on line 110.
+ 1 APPPATH\Controllers\Item.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Item.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:30:07 --> Undefined variable $company
+in APPPATH\Controllers\Item.php on line 110.
+ 1 APPPATH\Controllers\Item.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Item.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:31:00 --> Undefined variable $company
+in APPPATH\Controllers\Item.php on line 110.
+ 1 APPPATH\Controllers\Item.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Item.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 13:31:30 --> Undefined variable $company
+in APPPATH\Controllers\Item.php on line 110.
+ 1 APPPATH\Controllers\Item.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Item.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 14:05:02 --> Undefined variable $data
+in APPPATH\Controllers\Flasi.php on line 50.
+ 1 APPPATH\Controllers\Flasi.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Flasi.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 14:12:33 --> Undefined array key "no"
+in APPPATH\Controllers\Flasi.php on line 114.
+ 1 APPPATH\Controllers\Flasi.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no"', 'APPPATH\\Controllers\\Flasi.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 14:15:05 --> Undefined variable $company
+in APPPATH\Controllers\Flasi.php on line 112.
+ 1 APPPATH\Controllers\Flasi.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Flasi.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 14:15:49 --> Undefined variable $company
+in APPPATH\Controllers\Flasi.php on line 112.
+ 1 APPPATH\Controllers\Flasi.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Controllers\\Flasi.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 15:33:21 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\TransModel.php(57): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Trans.php(48): App\Models\TransModel->insertData([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->add()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 15:42:28 --> Too few arguments to function App\Models\TransModel::updateData(), 2 passed in C:\xampp\htdocs\lola\app\Controllers\Trans.php on line 68 and exactly 3 expected
+in APPPATH\Models\TransModel.php on line 67.
+ 1 APPPATH\Controllers\Trans.php(68): App\Models\TransModel->updateData('22257', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 15:45:14 --> Call to undefined method App\Models\TransModel::getTrans
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Trans.php(21): CodeIgniter\Model->__call('getTrans', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 15:45:15 --> Call to undefined method App\Models\TransModel::getTrans
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Trans.php(21): CodeIgniter\Model->__call('getTrans', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 15:45:17 --> Call to undefined method App\Models\TransModel::getTrans
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Trans.php(21): CodeIgniter\Model->__call('getTrans', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 15:45:31 --> Call to undefined method App\Models\TransModel::getTrans
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Trans.php(21): CodeIgniter\Model->__call('getTrans', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 15:46:38 --> Call to undefined method App\Models\TransModel::getTrans
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Trans.php(21): CodeIgniter\Model->__call('getTrans', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 15:48:57 --> Call to undefined method App\Models\TransModel::getTrans
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Trans.php(21): CodeIgniter\Model->__call('getTrans', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 16:18:21 --> Undefined array key "company"
+in APPPATH\Controllers\Trans.php on line 130.
+ 1 APPPATH\Controllers\Trans.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'APPPATH\\Controllers\\Trans.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 16:19:11 --> Undefined array key "company"
+in APPPATH\Controllers\Trans.php on line 130.
+ 1 APPPATH\Controllers\Trans.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'APPPATH\\Controllers\\Trans.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 16:19:58 --> Undefined array key "company"
+in APPPATH\Controllers\Trans.php on line 130.
+ 1 APPPATH\Controllers\Trans.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "company"', 'APPPATH\\Controllers\\Trans.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->doImport()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

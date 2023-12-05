@@ -1,0 +1,232 @@
+CRITICAL - 2023-02-27 09:56:16 --> Undefined array key "time"
+in APPPATH\Views\Report-Bending\print_report.php on line 252.
+ 1 APPPATH\Views\Report-Bending\print_report.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'APPPATH\\Views\\Report-Bending\\print_report.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(75): view('Report-Bending/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 09:58:14 --> Undefined array key "time"
+in APPPATH\Views\Report-Bending\print_report.php on line 252.
+ 1 APPPATH\Views\Report-Bending\print_report.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'APPPATH\\Views\\Report-Bending\\print_report.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(75): view('Report-Bending/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 09:59:24 --> Undefined array key "time"
+in APPPATH\Views\Report-Bending\print_report.php on line 252.
+ 1 APPPATH\Views\Report-Bending\print_report.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'APPPATH\\Views\\Report-Bending\\print_report.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(75): view('Report-Bending/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 09:59:25 --> Undefined array key "time"
+in APPPATH\Views\Report-Bending\print_report.php on line 252.
+ 1 APPPATH\Views\Report-Bending\print_report.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'APPPATH\\Views\\Report-Bending\\print_report.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(75): view('Report-Bending/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 09:59:26 --> Undefined array key "time"
+in APPPATH\Views\Report-Bending\print_report.php on line 252.
+ 1 APPPATH\Views\Report-Bending\print_report.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "time"', 'APPPATH\\Views\\Report-Bending\\print_report.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(75): view('Report-Bending/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 10:23:40 --> Undefined variable $bensinglist
+in APPPATH\Views\Report-Bending\print_report.php on line 243.
+ 1 APPPATH\Views\Report-Bending\print_report.php(243): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bensinglist', 'APPPATH\\Views\\Report-Bending\\print_report.php', 243)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(75): view('Report-Bending/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:22:43 --> Call to undefined method App\Models\TensilelistModel::getload
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\ReportTensile.php(55): CodeIgniter\Model->__call('getload', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->detail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-27 13:23:47 --> mysqli_sql_exception: Unknown column 'batchlistt_load' in 'field list' in C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `batchli...', 0)
+#1 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `batchli...')
+#2 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `batchli...')
+#3 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `batchli...', Array, false)
+#4 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\beton\app\Models\TensilelistModel.php(88): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\beton\app\Controllers\ReportTensile.php(55): App\Models\TensilelistModel->getload('1')
+#7 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\ReportTensile->detail()
+#8 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+#9 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\beton\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-27 13:23:47 --> Unknown column 'batchlistt_load' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `batchlistt_load` as `load`, `batchlistt_time` as `time`
+FROM `sys_batchlist_tensile`
+WHERE `batchlistt_pid` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `batchlistt_load` as `load`, `batchlistt_time` as `time`
+FROM `sys_batchlist_tensile`
+WHERE `batchlistt_pid` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `batchlistt_load` as `load`, `batchlistt_time` as `time`
+FROM `sys_batchlist_tensile`
+WHERE `batchlistt_pid` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `batchlistt_load` as `load`, `batchlistt_time` as `time`
+FROM `sys_batchlist_tensile`
+WHERE `batchlistt_pid` = :batchlistt_pid:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TensilelistModel.php(88): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\ReportTensile.php(55): App\Models\TensilelistModel->getload('1')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->detail()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:33:06 --> Call to undefined method App\Models\TensileModel::getprintreport
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\ReportTensile.php(68): CodeIgniter\Model->__call('getprintreport', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->printReportData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:34:01 --> Undefined variable $bending
+in APPPATH\Views\Report-Tensile\print_report.php on line 164.
+ 1 APPPATH\Views\Report-Tensile\print_report.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bending', 'APPPATH\\Views\\Report-Tensile\\print_report.php', 164)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Tensile/print_report', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(75): view('Report-Tensile/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->printReportData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:37:31 --> Undefined array key 0
+in APPPATH\Controllers\ReportBending.php on line 69.
+ 1 APPPATH\Controllers\ReportBending.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\ReportBending.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('undefined')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:38:55 --> Undefined array key "batchb_id"
+in APPPATH\Views\Report-Tensile\index.php on line 145.
+ 1 APPPATH\Views\Report-Tensile\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_id"', 'APPPATH\\Views\\Report-Tensile\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:39:00 --> Undefined array key "batchb_id"
+in APPPATH\Views\Report-Tensile\index.php on line 145.
+ 1 APPPATH\Views\Report-Tensile\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_id"', 'APPPATH\\Views\\Report-Tensile\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:51:37 --> Undefined array key "transaksi_id"
+in APPPATH\Views\Report-Tensile\index.php on line 102.
+ 1 APPPATH\Views\Report-Tensile\index.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "transaksi_id"', 'APPPATH\\Views\\Report-Tensile\\index.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index('2023-02-21', '2023-02-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:52:44 --> Undefined array key "batct_id"
+in APPPATH\Views\Report-Tensile\index.php on line 102.
+ 1 APPPATH\Views\Report-Tensile\index.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batct_id"', 'APPPATH\\Views\\Report-Tensile\\index.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index('2023-02-21', '2023-02-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 13:53:56 --> Undefined array key "batcht_id"
+in APPPATH\Views\Report-Bending\index.php on line 89.
+ 1 APPPATH\Views\Report-Bending\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batcht_id"', 'APPPATH\\Views\\Report-Bending\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-bending/index', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(47): view('report-bending/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->index('2023-02-21', '2023-02-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 14:05:35 --> Undefined array key "batchb_sempelno"
+in APPPATH\Views\Report-Bending\index.php on line 85.
+ 1 APPPATH\Views\Report-Bending\index.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_sempelno"', 'APPPATH\\Views\\Report-Bending\\index.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-bending/index', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(47): view('report-bending/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->index('2023-02-21', '2023-02-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 14:05:54 --> Undefined array key "batchb_sampleno"
+in APPPATH\Views\Report-Bending\index.php on line 238.
+ 1 APPPATH\Views\Report-Bending\index.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_sampleno"', 'APPPATH\\Views\\Report-Bending\\index.php', 238)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-bending/index', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(47): view('report-bending/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->index('2023-02-21', '2023-02-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 14:09:11 --> Undefined array key "batchb_id"
+in APPPATH\Views\Report-Tensile\index.php on line 266.
+ 1 APPPATH\Views\Report-Tensile\index.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_id"', 'APPPATH\\Views\\Report-Tensile\\index.php', 266)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index('2023-02-21', '2023-02-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-27 14:14:19 --> Undefined array key "batch_feh"
+in APPPATH\Views\Report-Tensile\index.php on line 326.
+ 1 APPPATH\Views\Report-Tensile\index.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batch_feh"', 'APPPATH\\Views\\Report-Tensile\\index.php', 326)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index('2023-02-21', '2023-02-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

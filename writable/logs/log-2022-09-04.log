@@ -1,0 +1,200 @@
+CRITICAL - 2022-09-04 00:53:35 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+in APPPATH/Controllers/Api.php on line 31.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Api.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Api')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Api')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Api')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Api', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 00:55:03 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+in APPPATH/Controllers/Api.php on line 31.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Api.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Api')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Api')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Api')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Api', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 00:59:07 --> Class 'App\Controllers\StdClass' not found
+in APPPATH/Controllers/Api.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerget('5')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 01:00:02 --> Class 'App\Controllers\stdClass' not found
+in APPPATH/Controllers/Api.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerget('5')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:51:02 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH/Models/CustomerModel.php on line 78.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Models/CustomerModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\CustomerModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\CustomerModel')
+ 4 APPPATH/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\CustomerModel')
+ 5 SYSTEMPATH/CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:51:17 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH/Models/CustomerModel.php on line 78.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Models/CustomerModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\CustomerModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\CustomerModel')
+ 4 APPPATH/Controllers/BaseController.php(53): spl_autoload_call('App\\Models\\CustomerModel')
+ 5 SYSTEMPATH/CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:51:42 --> Call to a member function find() on null
+in APPPATH/Models/CustomerModel.php on line 49.
+ 1 APPPATH/Controllers/Api.php(37): App\Models\CustomerModel->selectData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerget('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:51:46 --> Call to a member function find() on null
+in APPPATH/Models/CustomerModel.php on line 49.
+ 1 APPPATH/Controllers/Api.php(37): App\Models\CustomerModel->selectData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerget('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:57:51 --> Call to a member function find() on null
+in APPPATH/Models/CustomerModel.php on line 49.
+ 1 APPPATH/Controllers/Api.php(37): App\Models\CustomerModel->selectData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerget('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:58:55 --> Call to a member function find() on null
+in APPPATH/Models/CustomerModel.php on line 49.
+ 1 APPPATH/Controllers/Api.php(37): App\Models\CustomerModel->selectData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerget('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:59:29 --> Call to a member function find() on null
+in APPPATH/Models/CustomerModel.php on line 49.
+ 1 APPPATH/Controllers/Api.php(37): App\Models\CustomerModel->selectData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerget('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 03:59:41 --> Call to a member function find() on null
+in APPPATH/Models/CustomerModel.php on line 49.
+ 1 APPPATH/Controllers/Api.php(37): App\Models\CustomerModel->selectData('1')
+ 2 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerget('1')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 04:08:59 --> Call to a member function getPost() on null
+in APPPATH/Controllers/Api.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerpatch('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 04:09:31 --> Call to a member function getPost() on null
+in APPPATH/Controllers/Api.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerpatch('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 04:11:12 --> Call to a member function getPost() on null
+in APPPATH/Controllers/Api.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerpatch('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 04:22:11 --> syntax error, unexpected ')'
+in APPPATH/Controllers/Api.php on line 59.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Api.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Api')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Api')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Api')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Api', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 04:22:34 --> syntax error, unexpected ')'
+in APPPATH/Controllers/Api.php on line 59.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Api.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Api')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Api')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Api')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Api', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 04:22:46 --> syntax error, unexpected ')'
+in APPPATH/Controllers/Api.php on line 59.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Api.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Api')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Api')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Api')
+ 5 SYSTEMPATH/CodeIgniter.php(854): class_exists('\\App\\Controllers\\Api', true)
+ 6 SYSTEMPATH/CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 04:23:40 --> Call to a member function getRawInput() on null
+in APPPATH/Controllers/Api.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerpatch('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 05:29:54 --> Call to a member function getRawInput() on null
+in APPPATH/Controllers/Api.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->customerpatch('1')
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-04 06:47:48 --> mysqli_sql_exception: Column 'customeraddr' cannot be null in /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `5e...', 0)
+#1 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `5e...')
+#2 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `5e...')
+#3 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `5e...', Array, false)
+#4 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/regs2858/public_html/lltdemo/app/Models/CustomerModel.php(58): CodeIgniter\Model->insert(Array)
+#8 /home/regs2858/public_html/lltdemo/app/Controllers/Api.php(56): App\Models\CustomerModel->insertData('D', 'D')
+#9 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Api->customerpost()
+#10 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#11 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/regs2858/public_html/lltdemo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-04 08:17:25 --> mysqli_sql_exception: Table 'regs2858_igni660.5evehicle' doesn't exist in /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/regs2858/public_html/lltdemo/app/Models/VehicleModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 /home/regs2858/public_html/lltdemo/app/Controllers/Api.php(112): App\Models\VehicleModel->indexData()
+#8 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\Api->vehicleindex()
+#9 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 /home/regs2858/public_html/lltdemo/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/regs2858/public_html/lltdemo/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-04 08:17:25 --> Call to a member function getResult() on bool
+in SYSTEMPATH/Model.php on line 223.
+ 1 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Models/VehicleModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH/Controllers/Api.php(112): App\Models\VehicleModel->indexData()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Api->vehicleindex()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-04 08:58:57 --> Cannot declare class App\Models\VehicleModel, because the name is already in use
+in APPPATH/Models/MaterialModel.php on line 0.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-04 08:59:19 --> Cannot declare class App\Models\VehicleModel, because the name is already in use
+in APPPATH/Models/MaterialModel.php on line 0.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

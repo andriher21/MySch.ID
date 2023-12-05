@@ -1,0 +1,7 @@
+CRITICAL - 2023-03-20 13:57:48 --> Undefined variable $rm
+in APPPATH\Controllers\ReportTensile.php on line 138.
+ 1 APPPATH\Controllers\ReportTensile.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rm', 'APPPATH\\Controllers\\ReportTensile.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->inputdata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

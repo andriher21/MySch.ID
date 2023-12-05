@@ -1,0 +1,104 @@
+CRITICAL - 2023-02-06 10:51:09 --> syntax error, unexpected identifier "S"
+in APPPATH\Controllers\Trans.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Trans.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Trans')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Trans')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Trans', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 10:51:18 --> Undefined variable $db
+in APPPATH\Models\TransModel.php on line 97.
+ 1 APPPATH\Models\TransModel.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Models\\TransModel.php', 97)
+ 2 APPPATH\Controllers\Trans.php(21): App\Models\TransModel->getTrans(100)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 13:14:15 --> Undefined property: App\Controllers\Company::$master
+in APPPATH\Controllers\Company.php on line 42.
+ 1 APPPATH\Controllers\Company.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Company::$master', 'APPPATH\\Controllers\\Company.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->add()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 13:14:41 --> Too few arguments to function App\Models\CompanyModel::insertData(), 1 passed in C:\xampp\htdocs\lola\app\Controllers\Company.php on line 42 and exactly 2 expected
+in APPPATH\Models\CompanyModel.php on line 53.
+ 1 APPPATH\Controllers\Company.php(42): App\Models\CompanyModel->insertData([...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->add()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-06 13:17:11 --> mysqli_sql_exception: Unknown column 'company_create' in 'field list' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `5e...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `5e...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `5e...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `5e...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\lola\app\Models\CompanyModel.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\lola\app\Controllers\Company.php(42): App\Models\CompanyModel->insertData(Array)
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Company->add()
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+#11 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-06 13:17:11 --> Unknown column 'company_create' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `5ecompany` (`company_no`, `company_name`, `company_address`, `company_npwp`, `company_create`, `company_update`) VALUES (\'test\', \'test\', \'test\', \'test\', \'2023-02-06 13:17:11\', \'2023-02-06 13:17:11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `5ecompany` (`company_no`, `company_name`, `company_address`, `company_npwp`, `company_create`, `company_update`) VALUES (\'test\', \'test\', \'test\', \'test\', \'2023-02-06 13:17:11\', \'2023-02-06 13:17:11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `5ecompany` (`company_no`, `company_name`, `company_address`, `company_npwp`, `company_create`, `company_update`) VALUES (\'test\', \'test\', \'test\', \'test\', \'2023-02-06 13:17:11\', \'2023-02-06 13:17:11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `5ecompany` (`company_no`, `company_name`, `company_address`, `company_npwp`, `company_create`, `company_update`) VALUES (:company_no:, :company_name:, :company_address:, :company_npwp:, :company_create:, :company_update:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\CompanyModel.php(56): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Company.php(42): App\Models\CompanyModel->insertData([...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->add()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 13:19:09 --> Object of class App\Controllers\Company could not be converted to string
+in APPPATH\Controllers\Company.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:05:59 --> Array to string conversion
+in APPPATH\Controllers\Company.php on line 66.
+ 1 APPPATH\Controllers\Company.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Company.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:24:32 --> Array to string conversion
+in APPPATH\Controllers\Company.php on line 66.
+ 1 APPPATH\Controllers\Company.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Company.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:42:47 --> syntax error, unexpected token "=>", expecting ")"
+in APPPATH\Models\CompanyModel.php on line 106.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\CompanyModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\CompanyModel')
+ 3 APPPATH\Controllers\BaseController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\CompanyModel')
+ 4 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-06 14:43:20 --> Declaration of App\Models\CompanyModel::delete($data) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\CompanyModel.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-06 14:46:59 --> Declaration of App\Models\CompanyModel::delete($id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\CompanyModel.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-06 15:16:08 --> Undefined property: App\Controllers\Company::$load
+in APPPATH\Controllers\Company.php on line 80.
+ 1 APPPATH\Controllers\Company.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Company::$load', 'APPPATH\\Controllers\\Company.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

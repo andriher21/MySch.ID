@@ -1,0 +1,33 @@
+CRITICAL - 2023-01-26 11:12:00 --> Undefined array key "recordid"
+in APPPATH\Views\Transaction\index.php on line 99.
+ 1 APPPATH\Views\Transaction\index.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "recordid"', 'APPPATH\\Views\\Transaction\\index.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 11:12:20 --> Undefined array key "recordid"
+in APPPATH\Views\Transaction\index.php on line 99.
+ 1 APPPATH\Views\Transaction\index.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "recordid"', 'APPPATH\\Views\\Transaction\\index.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-26 11:14:32 --> Undefined array key "rtransaksi_id"
+in APPPATH\Views\Transaction\index.php on line 136.
+ 1 APPPATH\Views\Transaction\index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rtransaksi_id"', 'APPPATH\\Views\\Transaction\\index.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

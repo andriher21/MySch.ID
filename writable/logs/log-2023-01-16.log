@@ -1,0 +1,333 @@
+ERROR - 2023-01-16 20:33:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'regn8946_lola'@'localhost' (using password: YES) in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'regn8946_lola', 'lolalaut', 'regn8946_lolala...', 3306, '', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#6 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#11 C:\xampp\htdocs\lola\app\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#13 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#14 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#6 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#10 C:\xampp\htdocs\lola\app\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#12 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#13 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-01-16 20:33:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH\Session\Session.php(918): session_start()
+ 4 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 7 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+10 APPPATH\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+12 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:42:23 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:44:05 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:51:14 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Auth.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 20:51:47 --> Undefined variable $config
+in APPPATH\Controllers\Auth.php on line 4.
+ 1 APPPATH\Controllers\Auth.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Controllers\\Auth.php', 4)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Auth.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Auth.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 6 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Auth', true)
+ 7 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:52:12 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:52:13 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:52:33 --> Undefined variable $session
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 APPPATH\Controllers\Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Auth.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:53:36 --> syntax error, unexpected variable "$session", expecting "function" or "const"
+in APPPATH\Controllers\Auth.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:53:51 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Auth.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 20:53:53 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\Auth.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-16 20:54:01 --> Undefined variable $session
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 APPPATH\Controllers\Auth.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Auth.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:55:56 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 20:56:14 --> Undefined property: App\Controllers\Auth::$form_validation
+in APPPATH\Controllers\Auth.php on line 13.
+ 1 APPPATH\Controllers\Auth.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$form_validation', 'APPPATH\\Controllers\\Auth.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:05:15 --> Undefined variable $validation
+in APPPATH\Controllers\Auth.php on line 13.
+ 1 APPPATH\Controllers\Auth.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Auth.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:06:05 --> Undefined property: App\Controllers\Auth::$form_validation
+in APPPATH\Controllers\Auth.php on line 16.
+ 1 APPPATH\Controllers\Auth.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$form_validation', 'APPPATH\\Controllers\\Auth.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:06:17 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+in SYSTEMPATH\Validation\Validation.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing null to parameter #1 ($string) of type string is deprecated', 'SYSTEMPATH\\Validation\\Validation.php', 295)
+ 2 SYSTEMPATH\Validation\Validation.php(295): trim(null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('password', 'Password', null, [...], [...])
+ 4 APPPATH\Controllers\Auth.php(16): CodeIgniter\Validation\Validation->run()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:16:45 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+in SYSTEMPATH\Validation\Validation.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing null to parameter #1 ($string) of type string is deprecated', 'SYSTEMPATH\\Validation\\Validation.php', 295)
+ 2 SYSTEMPATH\Validation\Validation.php(295): trim(null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('password', 'Password', null, [...], [...])
+ 4 APPPATH\Controllers\Auth.php(16): CodeIgniter\Validation\Validation->run()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:16:46 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+in SYSTEMPATH\Validation\Validation.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing null to parameter #1 ($string) of type string is deprecated', 'SYSTEMPATH\\Validation\\Validation.php', 295)
+ 2 SYSTEMPATH\Validation\Validation.php(295): trim(null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('password', 'Password', null, [...], [...])
+ 4 APPPATH\Controllers\Auth.php(16): CodeIgniter\Validation\Validation->run()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:16:47 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+in SYSTEMPATH\Validation\Validation.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing null to parameter #1 ($string) of type string is deprecated', 'SYSTEMPATH\\Validation\\Validation.php', 295)
+ 2 SYSTEMPATH\Validation\Validation.php(295): trim(null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('password', 'Password', null, [...], [...])
+ 4 APPPATH\Controllers\Auth.php(16): CodeIgniter\Validation\Validation->run()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:18:48 --> Undefined property: App\Controllers\Auth::$input
+in APPPATH\Controllers\Auth.php on line 31.
+ 1 APPPATH\Controllers\Auth.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$input', 'APPPATH\\Controllers\\Auth.php', 31)
+ 2 APPPATH\Controllers\Auth.php(26): App\Controllers\Auth->_login()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:19:14 --> Undefined property: App\Controllers\Auth::$load
+in APPPATH\Controllers\Auth.php on line 19.
+ 1 APPPATH\Controllers\Auth.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$load', 'APPPATH\\Controllers\\Auth.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:22:29 --> syntax error, unexpected token "."
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:22:49 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\auth\login.php on line 17.
+ 1 APPPATH\Views\auth\login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\auth\\login.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/login', [], true)
+ 5 APPPATH\Controllers\Auth.php(20): view('auth/login')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:23:21 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\auth\login.php on line 17.
+ 1 APPPATH\Views\auth\login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\auth\\login.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/login', [], true)
+ 5 APPPATH\Controllers\Auth.php(20): view('auth/login')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:23:52 --> Call to undefined function set_value()
+in APPPATH\Views\auth\login.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(20): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:24:24 --> Call to undefined function form_error()
+in APPPATH\Views\auth\login.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(20): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:24:42 --> Call to undefined function form_error()
+in APPPATH\Views\auth\login.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(20): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:24:43 --> Call to undefined function form_error()
+in APPPATH\Views\auth\login.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(20): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:24:52 --> Call to undefined function form_error()
+in APPPATH\Views\auth\login.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(20): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:25:18 --> Call to undefined function form_error()
+in APPPATH\Views\auth\login.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(20): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:33:35 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:53:02 --> Undefined variable $validation
+in APPPATH\Controllers\Auth.php on line 13.
+ 1 APPPATH\Controllers\Auth.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Controllers\\Auth.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:54:00 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+in SYSTEMPATH\Validation\Validation.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing null to parameter #1 ($string) of type string is deprecated', 'SYSTEMPATH\\Validation\\Validation.php', 295)
+ 2 SYSTEMPATH\Validation\Validation.php(295): trim(null)
+ 3 SYSTEMPATH\Validation\Validation.php(175): CodeIgniter\Validation\Validation->processRules('password', 'Password', null, [...], [...])
+ 4 APPPATH\Controllers\Auth.php(16): CodeIgniter\Validation\Validation->run()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 21:54:45 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Controllers\Auth.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 22:04:23 --> syntax error, unexpected variable "$user"
+in APPPATH\Controllers\Auth.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

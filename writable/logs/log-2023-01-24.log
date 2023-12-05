@@ -1,0 +1,45 @@
+CRITICAL - 2023-01-24 20:34:22 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 12.
+ 1 APPPATH\Controllers\Dashboard.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-24 21:13:27 --> Cannot call constructor
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-24 21:13:41 --> Undefined property: App\Controllers\Dashboard::$session
+in APPPATH\Controllers\Dashboard.php on line 10.
+ 1 APPPATH\Controllers\Dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$session', 'APPPATH\\Controllers\\Dashboard.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Dashboard->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-24 21:14:15 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 13.
+ 1 APPPATH\Controllers\Dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-24 21:16:32 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 13.
+ 1 APPPATH\Controllers\Dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-24 21:16:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\topbar.php on line 19.
+ 1 APPPATH\Views\templates\topbar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\templates\\topbar.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/topbar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(38): view('templates/topbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

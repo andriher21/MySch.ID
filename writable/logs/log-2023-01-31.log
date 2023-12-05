@@ -1,0 +1,581 @@
+CRITICAL - 2023-01-31 10:22:33 --> Undefined variable $count
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'APPPATH\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Company.php(27): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:23:03 --> Undefined array key "customerid"
+in APPPATH\Views\company\index.php on line 55.
+ 1 APPPATH\Views\company\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customerid"', 'APPPATH\\Views\\company\\index.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\company\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('company/index', [], true)
+ 5 APPPATH\Controllers\Company.php(27): view('company/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:34:54 --> Undefined array key "customerid"
+in APPPATH\Views\company\index.php on line 66.
+ 1 APPPATH\Views\company\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customerid"', 'APPPATH\\Views\\company\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\company\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('company/index', [], true)
+ 5 APPPATH\Controllers\Company.php(27): view('company/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:35:14 --> Undefined array key "customerid"
+in APPPATH\Views\company\index.php on line 65.
+ 1 APPPATH\Views\company\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customerid"', 'APPPATH\\Views\\company\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\company\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('company/index', [], true)
+ 5 APPPATH\Controllers\Company.php(27): view('company/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:35:33 --> Undefined variable $customer
+in APPPATH\Views\company\index.php on line 115.
+ 1 APPPATH\Views\company\index.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Views\\company\\index.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\company\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('company/index', [], true)
+ 5 APPPATH\Controllers\Company.php(27): view('company/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:38:44 --> Undefined array key "customerid"
+in APPPATH\Views\company\index.php on line 136.
+ 1 APPPATH\Views\company\index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "customerid"', 'APPPATH\\Views\\company\\index.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\company\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('company/index', [], true)
+ 5 APPPATH\Controllers\Company.php(27): view('company/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:38:59 --> Undefined array key "compay_npwp"
+in APPPATH\Views\company\index.php on line 162.
+ 1 APPPATH\Views\company\index.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "compay_npwp"', 'APPPATH\\Views\\company\\index.php', 162)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\company\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('company/index', [], true)
+ 5 APPPATH\Controllers\Company.php(27): view('company/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:39:15 --> Undefined variable $dates
+in APPPATH\Views\templates\footer.php on line 71.
+ 1 APPPATH\Views\templates\footer.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dates', 'APPPATH\\Views\\templates\\footer.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Company.php(28): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:39:53 --> Undefined variable $dates
+in APPPATH\Views\templates\footer.php on line 71.
+ 1 APPPATH\Views\templates\footer.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dates', 'APPPATH\\Views\\templates\\footer.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Company.php(28): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:39:56 --> Undefined variable $dates
+in APPPATH\Views\templates\footer.php on line 71.
+ 1 APPPATH\Views\templates\footer.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dates', 'APPPATH\\Views\\templates\\footer.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Company.php(28): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 10:40:02 --> Undefined variable $dates
+in APPPATH\Views\templates\footer.php on line 73.
+ 1 APPPATH\Views\templates\footer.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dates', 'APPPATH\\Views\\templates\\footer.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH\Controllers\Company.php(28): view('templates/footer')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:32:51 --> syntax error, unexpected token "/"
+in APPPATH\Controllers\Transaction.php on line 134.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Transaction.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Transaction')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Transaction')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Transaction', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:40:37 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Company.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Company.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Company')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Company')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Company', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:41:14 --> Unmatched '}'
+in APPPATH\Controllers\Company.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Company.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Company')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Company')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Company', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:41:27 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Vehicle.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Vehicle.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Vehicle')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Vehicle')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Vehicle', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:41:43 --> Undefined variable $company
+in APPPATH\Views\company\index.php on line 53.
+ 1 APPPATH\Views\company\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Views\\company\\index.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\company\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('company/index', [], true)
+ 5 APPPATH\Controllers\Vehicle.php(27): view('company/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Vehicle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:42:00 --> Undefined array key "whitelist"
+in APPPATH\Views\Vehicle\index.php on line 63.
+ 1 APPPATH\Views\Vehicle\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "whitelist"', 'APPPATH\\Views\\Vehicle\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Vehicle\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('vehicle/index', [], true)
+ 5 APPPATH\Controllers\Vehicle.php(27): view('vehicle/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Vehicle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:42:29 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Item.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Item.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Item')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Item')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Item', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:42:46 --> Undefined variable $company
+in APPPATH\Views\company\index.php on line 53.
+ 1 APPPATH\Views\company\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company', 'APPPATH\\Views\\company\\index.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\company\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('company/index', [], true)
+ 5 APPPATH\Controllers\Item.php(27): view('company/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:43:12 --> Undefined variable $material
+in APPPATH\Views\item\index.php on line 51.
+ 1 APPPATH\Views\item\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $material', 'APPPATH\\Views\\item\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('item/index', [], true)
+ 5 APPPATH\Controllers\Item.php(27): view('item/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:46:05 --> Undefined variable $material
+in APPPATH\Views\item\index.php on line 115.
+ 1 APPPATH\Views\item\index.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $material', 'APPPATH\\Views\\item\\index.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('item/index', [], true)
+ 5 APPPATH\Controllers\Item.php(27): view('item/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 13:47:46 --> Undefined array key "materialid"
+in APPPATH\Views\item\index.php on line 123.
+ 1 APPPATH\Views\item\index.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "materialid"', 'APPPATH\\Views\\item\\index.php', 123)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('item/index', [], true)
+ 5 APPPATH\Controllers\Item.php(27): view('item/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:03:51 --> Undefined array key "whitelist"
+in APPPATH\Views\Tujuan\index.php on line 63.
+ 1 APPPATH\Views\Tujuan\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "whitelist"', 'APPPATH\\Views\\Tujuan\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tujuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tujuan/index', [], true)
+ 5 APPPATH\Controllers\Tujuan.php(27): view('Tujuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:07:07 --> Undefined array key "tujuan_id"
+in APPPATH\Views\Tujuan\index.php on line 55.
+ 1 APPPATH\Views\Tujuan\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tujuan_id"', 'APPPATH\\Views\\Tujuan\\index.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tujuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tujuan/index', [], true)
+ 5 APPPATH\Controllers\Tujuan.php(27): view('Tujuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:08:20 --> Undefined array key "tujuan_id"
+in APPPATH\Views\Tujuan\index.php on line 55.
+ 1 APPPATH\Views\Tujuan\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tujuan_id"', 'APPPATH\\Views\\Tujuan\\index.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tujuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tujuan/index', [], true)
+ 5 APPPATH\Controllers\Tujuan.php(27): view('Tujuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:09:22 --> Undefined property: App\Controllers\Tujuan::$tujuan
+in APPPATH\Controllers\Tujuan.php on line 21.
+ 1 APPPATH\Controllers\Tujuan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Tujuan::$tujuan', 'APPPATH\\Controllers\\Tujuan.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 14:10:05 --> mysqli_sql_exception: Unknown column '5etujuan.tujuan_delete' in 'where clause' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lola\app\Models\TujuanModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lola\app\Controllers\Tujuan.php(21): App\Models\TujuanModel->indexData()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Tujuan->index()
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-31 14:10:05 --> Unknown column '5etujuan.tujuan_delete' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5etujuan`
+WHERE `5etujuan`.`tujuan_delete` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5etujuan`
+WHERE `5etujuan`.`tujuan_delete` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5etujuan`
+WHERE `5etujuan`.`tujuan_delete` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5etujuan`
+WHERE `5etujuan`.`tujuan_delete` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TujuanModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Tujuan.php(21): App\Models\TujuanModel->indexData()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:10:28 --> Undefined variable $type
+in APPPATH\Views\Tujuan\index.php on line 99.
+ 1 APPPATH\Views\Tujuan\index.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'APPPATH\\Views\\Tujuan\\index.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tujuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tujuan/index', [], true)
+ 5 APPPATH\Controllers\Tujuan.php(27): view('Tujuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:11:09 --> Undefined variable $vehicle
+in APPPATH\Views\Tujuan\index.php on line 108.
+ 1 APPPATH\Views\Tujuan\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vehicle', 'APPPATH\\Views\\Tujuan\\index.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tujuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tujuan/index', [], true)
+ 5 APPPATH\Controllers\Tujuan.php(27): view('Tujuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tujuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tujuan))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:25:08 --> Undefined variable $tujuan
+in APPPATH\Views\Trans\index.php on line 51.
+ 1 APPPATH\Views\Trans\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tujuan', 'APPPATH\\Views\\Trans\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Trans\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Trans/index', [], true)
+ 5 APPPATH\Controllers\Trans.php(27): view('Trans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:27:34 --> Undefined variable $tujuan
+in APPPATH\Views\Trans\index.php on line 51.
+ 1 APPPATH\Views\Trans\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tujuan', 'APPPATH\\Views\\Trans\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Trans\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Trans/index', [], true)
+ 5 APPPATH\Controllers\Trans.php(27): view('Trans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:34:37 --> Undefined variable $tujuan
+in APPPATH\Views\Trans\index.php on line 51.
+ 1 APPPATH\Views\Trans\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tujuan', 'APPPATH\\Views\\Trans\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Trans\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Trans/index', [], true)
+ 5 APPPATH\Controllers\Trans.php(27): view('Trans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:43:15 --> Undefined variable $rans
+in APPPATH\Views\Trans\index.php on line 58.
+ 1 APPPATH\Views\Trans\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rans', 'APPPATH\\Views\\Trans\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Trans\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Trans/index', [], true)
+ 5 APPPATH\Controllers\Trans.php(27): view('Trans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:43:17 --> Undefined variable $rans
+in APPPATH\Views\Trans\index.php on line 58.
+ 1 APPPATH\Views\Trans\index.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rans', 'APPPATH\\Views\\Trans\\index.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Trans\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Trans/index', [], true)
+ 5 APPPATH\Controllers\Trans.php(27): view('Trans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:45:25 --> Undefined array key "tujuan_id"
+in APPPATH\Views\Trans\index.php on line 76.
+ 1 APPPATH\Views\Trans\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tujuan_id"', 'APPPATH\\Views\\Trans\\index.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Trans\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Trans/index', [], true)
+ 5 APPPATH\Controllers\Trans.php(27): view('Trans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 14:47:19 --> Undefined array key "tujuan_company"
+in APPPATH\Views\Trans\index.php on line 146.
+ 1 APPPATH\Views\Trans\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tujuan_company"', 'APPPATH\\Views\\Trans\\index.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Trans\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Trans/index', [], true)
+ 5 APPPATH\Controllers\Trans.php(27): view('Trans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 15:00:26 --> Undefined property: App\Controllers\Plant::$plant
+in APPPATH\Controllers\Plant.php on line 21.
+ 1 APPPATH\Controllers\Plant.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Plant::$plant', 'APPPATH\\Controllers\\Plant.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plant->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plant))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 15:01:25 --> mysqli_sql_exception: Unknown column '5eplant.plant_delete' in 'where clause' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lola\app\Models\PlantModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lola\app\Controllers\Plant.php(21): App\Models\PlantModel->indexData()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Plant->index()
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plant))
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-31 15:01:25 --> Unknown column '5eplant.plant_delete' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5eplant`
+WHERE `5eplant`.`plant_delete` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5eplant`
+WHERE `5eplant`.`plant_delete` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5eplant`
+WHERE `5eplant`.`plant_delete` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5eplant`
+WHERE `5eplant`.`plant_delete` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PlantModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Plant.php(21): App\Models\PlantModel->indexData()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plant->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plant))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 15:01:40 --> Undefined variable $tujuan
+in APPPATH\Views\Tujuan\index.php on line 51.
+ 1 APPPATH\Views\Tujuan\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tujuan', 'APPPATH\\Views\\Tujuan\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tujuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tujuan/index', [], true)
+ 5 APPPATH\Controllers\Plant.php(27): view('Tujuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plant->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plant))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 15:05:20 --> Undefined variable $tujuan
+in APPPATH\Views\Tujuan\index.php on line 51.
+ 1 APPPATH\Views\Tujuan\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tujuan', 'APPPATH\\Views\\Tujuan\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tujuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tujuan/index', [], true)
+ 5 APPPATH\Controllers\Plant.php(27): view('Tujuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plant->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plant))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 15:05:31 --> Undefined variable $tujuan
+in APPPATH\Views\Tujuan\index.php on line 51.
+ 1 APPPATH\Views\Tujuan\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tujuan', 'APPPATH\\Views\\Tujuan\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tujuan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tujuan/index', [], true)
+ 5 APPPATH\Controllers\Plant.php(27): view('Tujuan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Plant->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plant))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 15:15:09 --> mysqli_sql_exception: Unknown column '5eflasi.flasi_delete' in 'where clause' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lola\app\Models\FlasiModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lola\app\Controllers\Flasi.php(21): App\Models\FlasiModel->indexData()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Flasi->index()
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-31 15:15:09 --> Unknown column '5eflasi.flasi_delete' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5eflasi`
+WHERE `5eflasi`.`flasi_delete` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5eflasi`
+WHERE `5eflasi`.`flasi_delete` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5eflasi`
+WHERE `5eflasi`.`flasi_delete` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5eflasi`
+WHERE `5eflasi`.`flasi_delete` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\FlasiModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Flasi.php(21): App\Models\FlasiModel->indexData()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 15:15:25 --> Undefined variable $plant
+in APPPATH\Views\Flasi\index.php on line 49.
+ 1 APPPATH\Views\Flasi\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $plant', 'APPPATH\\Views\\Flasi\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Flasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('flasi/index', [], true)
+ 5 APPPATH\Controllers\Flasi.php(27): view('flasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 15:44:18 --> mysqli_sql_exception: Unknown column '5edriver.driver_delete' in 'where clause' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lola\app\Models\DriverModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lola\app\Controllers\Driver.php(21): App\Models\DriverModel->indexData()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Driver->index()
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-31 15:44:18 --> Unknown column '5edriver.driver_delete' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5edriver`
+WHERE `5edriver`.`driver_delete` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5edriver`
+WHERE `5edriver`.`driver_delete` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5edriver`
+WHERE `5edriver`.`driver_delete` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5edriver`
+WHERE `5edriver`.`driver_delete` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DriverModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Driver.php(21): App\Models\DriverModel->indexData()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Driver->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-31 15:44:35 --> Undefined variable $plant
+in APPPATH\Views\Plant\index.php on line 49.
+ 1 APPPATH\Views\Plant\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $plant', 'APPPATH\\Views\\Plant\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Plant\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Plant/index', [], true)
+ 5 APPPATH\Controllers\Driver.php(27): view('Plant/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Driver->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Driver))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

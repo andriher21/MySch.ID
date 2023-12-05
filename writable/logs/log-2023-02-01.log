@@ -1,0 +1,46 @@
+CRITICAL - 2023-02-01 10:32:34 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\Client.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Client->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 10:32:57 --> Undefined property: App\Controllers\Client::$client
+in APPPATH\Controllers\Client.php on line 21.
+ 1 APPPATH\Controllers\Client.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Client::$client', 'APPPATH\\Controllers\\Client.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Client->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 10:33:17 --> Undefined variable $customer
+in APPPATH\Views\Client\index.php on line 108.
+ 1 APPPATH\Views\Client\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'APPPATH\\Views\\Client\\index.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Client\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Client/index', [], true)
+ 5 APPPATH\Controllers\Client.php(27): view('Client/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 10:33:40 --> Undefined variable $departements
+in APPPATH\Views\Client\index.php on line 113.
+ 1 APPPATH\Views\Client\index.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departements', 'APPPATH\\Views\\Client\\index.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Client\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Client/index', [], true)
+ 5 APPPATH\Controllers\Client.php(27): view('Client/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 10:33:49 --> Undefined variable $departements
+in APPPATH\Views\Client\index.php on line 159.
+ 1 APPPATH\Views\Client\index.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departements', 'APPPATH\\Views\\Client\\index.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Client\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Client/index', [], true)
+ 5 APPPATH\Controllers\Client.php(27): view('Client/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Client->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,42 @@
+CRITICAL - 2023-03-13 10:16:43 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-13 10:16:43 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-13 10:26:40 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-13 15:23:08 --> Undefined array key "batcht_size"
+in APPPATH\Views\Report-Tensile\index.php on line 90.
+ 1 APPPATH\Views\Report-Tensile\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batcht_size"', 'APPPATH\\Views\\Report-Tensile\\index.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index('2023-02-12', '2023-03-13')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 15:24:58 --> Undefined array key "batcht_size"
+in APPPATH\Views\Report-Tensile\index.php on line 90.
+ 1 APPPATH\Views\Report-Tensile\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batcht_size"', 'APPPATH\\Views\\Report-Tensile\\index.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index('2023-02-12', '2023-03-13')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 15:25:00 --> Undefined array key "batcht_size"
+in APPPATH\Views\Report-Tensile\index.php on line 90.
+ 1 APPPATH\Views\Report-Tensile\index.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batcht_size"', 'APPPATH\\Views\\Report-Tensile\\index.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index('2023-02-12', '2023-03-13')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

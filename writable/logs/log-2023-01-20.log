@@ -1,0 +1,257 @@
+CRITICAL - 2023-01-20 00:23:03 --> Undefined array key "role_id"
+in APPPATH\Views\templates\sidebar.php on line 18.
+ 1 APPPATH\Views\templates\sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Views\\templates\\sidebar.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:23:32 --> Undefined array key "recordcname"
+in APPPATH\Views\dashboard.php on line 162.
+ 1 APPPATH\Views\dashboard.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "recordcname"', 'APPPATH\\Views\\dashboard.php', 162)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(28): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:29:37 --> Undefined variable $material
+in APPPATH\Views\dashboard.php on line 207.
+ 1 APPPATH\Views\dashboard.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $material', 'APPPATH\\Views\\dashboard.php', 207)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(28): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:31:05 --> Call to undefined method App\Models\TransaksiModel::getmaterial
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Dashboard.php(22): CodeIgniter\Model->__call('getmaterial', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 00:39:52 --> Undefined variable $model
+in APPPATH\Views\templates\sidebar.php on line 18.
+ 1 APPPATH\Views\templates\sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Views\\templates\\sidebar.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(26): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 02:16:25 --> Cannot use object of type stdClass as array
+in APPPATH\Views\templates\sidebar.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(31): view('templates/sidebar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 02:17:32 --> Cannot use object of type stdClass as array
+in APPPATH\Views\templates\sidebar.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(30): view('templates/sidebar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 02:18:25 --> Cannot use object of type stdClass as array
+in APPPATH\Views\templates\sidebar.php on line 25.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(30): view('templates/sidebar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 02:24:58 --> syntax error, unexpected end of file
+in APPPATH\Views\templates\sidebar.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(30): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 02:25:37 --> syntax error, unexpected end of file
+in APPPATH\Views\templates\sidebar.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(30): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 02:25:38 --> syntax error, unexpected end of file
+in APPPATH\Views\templates\sidebar.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(30): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 02:26:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\templates\sidebar.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(30): view('templates/sidebar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:24:30 --> syntax error, unexpected identifier "where"
+in APPPATH\Controllers\Dashboard.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-20 03:24:46 --> mysqli_sql_exception: Unknown column 'perent_id' in 'where clause' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\app\Controllers\Dashboard.php(15): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-20 03:24:46 --> Unknown column 'perent_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5enav`
+WHERE `role_id` = \'1\'
+AND `perent_id` IS NULL
+ORDER BY `nav_order` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5enav`
+WHERE `role_id` = \'1\'
+AND `perent_id` IS NULL
+ORDER BY `nav_order` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5enav`
+WHERE `role_id` = \'1\'
+AND `perent_id` IS NULL
+ORDER BY `nav_order` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5enav`
+WHERE `role_id` = :role_id:
+AND `perent_id` IS NULL
+ORDER BY `nav_order` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(15): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:45:52 --> Undefined variable $resultSubMenu
+in APPPATH\Views\templates\sidebar.php on line 20.
+ 1 APPPATH\Views\templates\sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultSubMenu', 'APPPATH\\Views\\templates\\sidebar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(35): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:47:20 --> Undefined variable $resultSubMenu
+in APPPATH\Views\templates\sidebar.php on line 20.
+ 1 APPPATH\Views\templates\sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultSubMenu', 'APPPATH\\Views\\templates\\sidebar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:47:22 --> Undefined variable $resultSubMenu
+in APPPATH\Views\templates\sidebar.php on line 20.
+ 1 APPPATH\Views\templates\sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultSubMenu', 'APPPATH\\Views\\templates\\sidebar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:48:15 --> Undefined variable $resultSubMenu
+in APPPATH\Views\templates\sidebar.php on line 20.
+ 1 APPPATH\Views\templates\sidebar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultSubMenu', 'APPPATH\\Views\\templates\\sidebar.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('templates/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:52:37 --> syntax error, unexpected token "."
+in APPPATH\Views\templates\sidebar.php on line 28.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(33): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:52:41 --> syntax error, unexpected token "."
+in APPPATH\Views\templates\sidebar.php on line 28.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(33): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:52:42 --> syntax error, unexpected token "."
+in APPPATH\Views\templates\sidebar.php on line 28.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(33): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:53:01 --> syntax error, unexpected token "/"
+in APPPATH\Views\templates\sidebar.php on line 28.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(33): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-20 03:53:02 --> syntax error, unexpected token "/"
+in APPPATH\Views\templates\sidebar.php on line 28.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('templates/sidebar', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(33): view('templates/sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

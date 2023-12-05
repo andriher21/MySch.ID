@@ -1,0 +1,388 @@
+ERROR - 2023-10-23 11:21:00 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_product' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_product', 3306, '', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#11 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#14 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#15 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_product' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#12 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#14 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2023-10-23 11:21:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_product'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH\Session\Session.php(918): session_start()
+ 4 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 7 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 APPPATH\Controllers\BaseController.php(51): session()
+12 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+13 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:31:49 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_product' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_product', 3306, '', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#11 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#14 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#15 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_product' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#12 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#14 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2023-10-23 11:31:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_product'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH\Session\Session.php(918): session_start()
+ 4 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 7 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 APPPATH\Controllers\BaseController.php(51): session()
+12 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+13 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:31:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_product' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_product', 3306, '', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#11 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#14 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#15 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_product' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#12 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#14 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2023-10-23 11:31:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_product'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH\Session\Session.php(918): session_start()
+ 4 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 7 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 APPPATH\Controllers\BaseController.php(51): session()
+12 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+13 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:31:51 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_product' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_product', 3306, '', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#11 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#14 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#15 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_product' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#12 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#14 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2023-10-23 11:31:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_product'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH\Session\Session.php(918): session_start()
+ 4 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 7 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+10 SYSTEMPATH\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 APPPATH\Controllers\BaseController.php(51): session()
+12 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+13 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:32:08 --> mysqli_sql_exception: Table 'db_barang.ci_sessions' doesn't exist in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `data`\nF...', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('efk7dth9937ngvt...')
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#8 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#9 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#10 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#13 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 C:\xampp\htdocs\app-barang\app\Controllers\BaseController.php(51): session()
+#15 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#16 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#17 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#18 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#19 {main}
+CRITICAL - 2023-10-23 11:32:08 --> Table 'db_barang.ci_sessions' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = \'efk7dth9937ngvt5jjnpgtuhoep8cqgi\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = \'efk7dth9937ngvt5jjnpgtuhoep8cqgi\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = \'efk7dth9937ngvt5jjnpgtuhoep8cqgi\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(126): CodeIgniter\Database\BaseBuilder->get()
+ 6 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('efk7dth9937ngvt5jjnpgtuhoep8cqgi')
+ 7 SYSTEMPATH\Session\Session.php(918): session_start()
+ 8 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 9 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+10 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+11 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+12 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+13 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+14 SYSTEMPATH\Common.php(934): CodeIgniter\Config\BaseService::__callStatic('session', [])
+15 APPPATH\Controllers\BaseController.php(51): session()
+16 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+17 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+18 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:32:23 --> mysqli_sql_exception: Unknown column 'timestamp' in 'field list' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(190): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->write('efk7dth9937ngvt...', '__ci_last_regen...')
+#6 [internal function]: session_write_close()
+#7 {main}
+ERROR - 2023-10-23 11:33:36 --> mysqli_sql_exception: Unknown column 'timestamp' in 'field list' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ci...', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(190): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->write('efk7dth9937ngvt...', '__ci_last_regen...')
+#6 [internal function]: session_write_close()
+#7 {main}
+ERROR - 2023-10-23 11:43:28 --> mysqli_sql_exception: Table 'db_barang.kategory' doesn't exist in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM k...', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM k...')
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM k...')
+#3 C:\xampp\htdocs\app-barang\app\Models\KategoryModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#4 C:\xampp\htdocs\app-barang\app\Controllers\BarangController.php(21): App\Models\KategoryModel->indexData()
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BarangController->index()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 11:43:28 --> Table 'db_barang.kategory' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM kategory ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM kategory ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM kategory ')
+ 4 APPPATH\Models\KategoryModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM kategory ')
+ 5 APPPATH\Controllers\BarangController.php(21): App\Models\KategoryModel->indexData()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 11:44:47 --> Undefined array key "posisi"
+in APPPATH\Views\Profil\index.php on line 16.
+ 1 APPPATH\Views\Profil\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "posisi"', 'APPPATH\\Views\\Profil\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Profil\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Profil/index', [], true)
+ 5 APPPATH\Controllers\ProfilController.php(13): view('Profil/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ProfilCOntroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfilCOntroller))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:00:53 --> Undefined array key "image"
+in APPPATH\Models\BarangModel.php on line 55.
+ 1 APPPATH\Models\BarangModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Models\\BarangModel.php', 55)
+ 2 APPPATH\Controllers\BarangController.php(139): App\Models\BarangModel->insertData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->createsave()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:01:01 --> Undefined array key "image"
+in APPPATH\Models\BarangModel.php on line 55.
+ 1 APPPATH\Models\BarangModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Models\\BarangModel.php', 55)
+ 2 APPPATH\Controllers\BarangController.php(139): App\Models\BarangModel->insertData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->createsave()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:02:06 --> Undefined array key "image"
+in APPPATH\Models\BarangModel.php on line 54.
+ 1 APPPATH\Models\BarangModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Models\\BarangModel.php', 54)
+ 2 APPPATH\Controllers\BarangController.php(139): App\Models\BarangModel->insertData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->createsave()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 13:03:45 --> mysqli_sql_exception: Unknown column 'kategory_barang' in 'field list' in C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO bar...', 0)
+#1 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO bar...')
+#2 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO bar...')
+#3 C:\xampp\htdocs\app-barang\app\Models\BarangModel.php(55): CodeIgniter\Database\BaseConnection->query('INSERT INTO bar...')
+#4 C:\xampp\htdocs\app-barang\app\Controllers\BarangController.php(139): App\Models\BarangModel->insertData(Array)
+#5 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\BarangController->createsave()
+#6 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#7 C:\xampp\htdocs\app-barang\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app-barang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 13:03:45 --> Unknown column 'kategory_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO barang (kategory_barang,nama_barang,harga_beli,harga_jual,stok_barang) VALUES 
+		(\'Makanan\',\'beng-beng\',\'2000\',\'2600\',\'40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO barang (kategory_barang,nama_barang,harga_beli,harga_jual,stok_barang) VALUES 
+		(\'Makanan\',\'beng-beng\',\'2000\',\'2600\',\'40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO barang (kategory_barang,nama_barang,harga_beli,harga_jual,stok_barang) VALUES 
+		(\'Makanan\',\'beng-beng\',\'2000\',\'2600\',\'40\')')
+ 4 APPPATH\Models\BarangModel.php(55): CodeIgniter\Database\BaseConnection->query('INSERT INTO barang (kategory_barang,nama_barang,harga_beli,harga_jual,stok_barang) VALUES 
+		(\'Makanan\',\'beng-beng\',\'2000\',\'2600\',\'40\')')
+ 5 APPPATH\Controllers\BarangController.php(139): App\Models\BarangModel->insertData([...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\BarangController->createsave()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

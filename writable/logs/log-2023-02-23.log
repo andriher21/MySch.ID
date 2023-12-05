@@ -1,0 +1,72 @@
+CRITICAL - 2023-02-23 09:41:03 --> Undefined variable $u
+in APPPATH\Views\Report-Bending\print_report.php on line 159.
+ 1 APPPATH\Views\Report-Bending\print_report.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $u', 'APPPATH\\Views\\Report-Bending\\print_report.php', 159)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Bending\\print_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 5 APPPATH\Controllers\ReportBending.php(74): view('Report-Bending/print_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 09:41:52 --> syntax error, unexpected end of file
+in APPPATH\Views\Report-Bending\print_report.php on line 240.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 3 APPPATH\Controllers\ReportBending.php(74): view('Report-Bending/print_report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 09:42:13 --> Cannot access offset of type string on string
+in APPPATH\Views\Report-Bending\print_report.php on line 160.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Report-Bending/print_report', [], true)
+ 4 APPPATH\Controllers\ReportBending.php(74): view('Report-Bending/print_report', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 09:43:27 --> Call to a member function getResultArray() on array
+in APPPATH\Models\BendingModel.php on line 33.
+ 1 APPPATH\Controllers\ReportBending.php(68): App\Models\BendingModel->selectData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 09:43:35 --> Call to a member function getResultArray() on array
+in APPPATH\Models\BendingModel.php on line 33.
+ 1 APPPATH\Controllers\ReportBending.php(68): App\Models\BendingModel->selectData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 09:44:39 --> Undefined array key "batchb_id"
+in APPPATH\Controllers\ReportBending.php on line 69.
+ 1 APPPATH\Controllers\ReportBending.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_id"', 'APPPATH\\Controllers\\ReportBending.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 14:54:16 --> Undefined array key 0
+in APPPATH\Controllers\ReportBending.php on line 69.
+ 1 APPPATH\Controllers\ReportBending.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\ReportBending.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('FCPATH\\null')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 15:05:04 --> Undefined array key 0
+in APPPATH\Controllers\ReportBending.php on line 69.
+ 1 APPPATH\Controllers\ReportBending.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\ReportBending.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('FCPATH\\null')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-23 15:05:10 --> Undefined array key 0
+in APPPATH\Controllers\ReportBending.php on line 69.
+ 1 APPPATH\Controllers\ReportBending.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\ReportBending.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->printReportData('FCPATH\\null')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

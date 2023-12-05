@@ -1,0 +1,217 @@
+CRITICAL - 2023-01-25 00:46:16 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 13.
+ 1 APPPATH\Controllers\Dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 00:47:10 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 13.
+ 1 APPPATH\Controllers\Dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 00:48:02 --> Call to undefined function App\Controllers\getActiveDate()
+in APPPATH\Controllers\Transaction.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 00:49:34 --> Call to undefined function get_instance()
+in APPPATH\Helpers\my_helper.php on line 27.
+ 1 APPPATH\Controllers\Transaction.php(25): getActiveDate()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 00:51:21 --> Call to undefined function get_instance()
+in APPPATH\Helpers\my_helper.php on line 27.
+ 1 APPPATH\Controllers\Transaction.php(25): getActiveDate()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 01:02:48 --> Call to undefined function get_instance()
+in APPPATH\Helpers\my_helper.php on line 27.
+ 1 APPPATH\Controllers\Transaction.php(25): getActiveDate()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 01:11:32 --> Call to undefined function get_instance()
+in APPPATH\Helpers\my_helper.php on line 27.
+ 1 APPPATH\Controllers\Transaction.php(25): getActiveDate()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 01:12:12 --> Undefined variable $active_date
+in APPPATH\Controllers\Transaction.php on line 26.
+ 1 APPPATH\Controllers\Transaction.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $active_date', 'APPPATH\\Controllers\\Transaction.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 01:15:25 --> Undefined variable $prev_date_uri
+in APPPATH\Views\Transaction\index.php on line 17.
+ 1 APPPATH\Views\Transaction\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prev_date_uri', 'APPPATH\\Views\\Transaction\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(38): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 01:16:40 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\Transaction\index.php on line 44.
+ 1 APPPATH\Views\Transaction\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\Transaction\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 01:20:24 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Transaction\index.php on line 44.
+ 1 APPPATH\Views\Transaction\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Transaction\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 01:20:45 --> Undefined variable $request
+in APPPATH\Views\Transaction\index.php on line 44.
+ 1 APPPATH\Views\Transaction\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Views\\Transaction\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 01:20:56 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Transaction\index.php on line 44.
+ 1 APPPATH\Views\Transaction\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Transaction\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:37:18 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 13.
+ 1 APPPATH\Controllers\Dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:42:58 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:45:40 --> Undefined variable $session
+in APPPATH\Controllers\Dashboard.php on line 13.
+ 1 APPPATH\Controllers\Dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Dashboard.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:47:12 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:49:30 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:54:50 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:55:06 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:57:32 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 20:57:34 --> Undefined array key "role_id"
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 21:35:25 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Transaction\index.php on line 44.
+ 1 APPPATH\Views\Transaction\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Transaction\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 21:35:42 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Transaction\index.php on line 44.
+ 1 APPPATH\Views\Transaction\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Transaction\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 21:36:54 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Transaction\index.php on line 44.
+ 1 APPPATH\Views\Transaction\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Transaction\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-25 21:39:35 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Transaction\index.php on line 44.
+ 1 APPPATH\Views\Transaction\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Transaction\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/index', [], true)
+ 5 APPPATH\Controllers\Transaction.php(40): view('transaction/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

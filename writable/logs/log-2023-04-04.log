@@ -1,0 +1,62 @@
+ERROR - 2023-04-04 10:53:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'beton', 3306, '', 0)
+#1 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#5 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#6 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#7 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#8 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#11 C:\xampp\htdocs\beton\app\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#13 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#14 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\beton\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#4 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#6 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#10 C:\xampp\htdocs\beton\app\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#12 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#13 C:\xampp\htdocs\beton\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\beton\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-04-04 10:53:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH\Session\Session.php(918): session_start()
+ 4 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 7 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+10 APPPATH\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+12 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-04 14:09:20 --> Undefined array key "fm"
+in APPPATH\Controllers\ReportTensile.php on line 147.
+ 1 APPPATH\Controllers\ReportTensile.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fm"', 'APPPATH\\Controllers\\ReportTensile.php', 147)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->inputdata()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

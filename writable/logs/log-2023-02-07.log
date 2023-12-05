@@ -1,0 +1,93 @@
+CRITICAL - 2023-02-07 09:41:34 --> Undefined property: App\Controllers\Company::$load
+in APPPATH\Controllers\Company.php on line 80.
+ 1 APPPATH\Controllers\Company.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Company::$load', 'APPPATH\\Controllers\\Company.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 09:42:23 --> Undefined property: App\Controllers\Company::$load
+in APPPATH\Controllers\Company.php on line 80.
+ 1 APPPATH\Controllers\Company.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Company::$load', 'APPPATH\\Controllers\\Company.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:02:19 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Company.php on line 104.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Company.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Company')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Company')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Company', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 10:03:05 --> Undefined variable $path
+in APPPATH\Controllers\Company.php on line 99.
+ 1 APPPATH\Controllers\Company.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $path', 'APPPATH\\Controllers\\Company.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:31:22 --> Undefined array key 3
+in APPPATH\Controllers\Company.php on line 95.
+ 1 APPPATH\Controllers\Company.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH\\Controllers\\Company.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:33:16 --> Undefined array key 2
+in APPPATH\Controllers\Company.php on line 94.
+ 1 APPPATH\Controllers\Company.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Company.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:34:42 --> Undefined array key 3
+in APPPATH\Controllers\Company.php on line 95.
+ 1 APPPATH\Controllers\Company.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH\\Controllers\\Company.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:35:22 --> Undefined array key 2
+in APPPATH\Controllers\Company.php on line 94.
+ 1 APPPATH\Controllers\Company.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Company.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:36:23 --> Undefined array key 2
+in APPPATH\Controllers\Company.php on line 94.
+ 1 APPPATH\Controllers\Company.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Company.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:41:10 --> Undefined array key 2
+in APPPATH\Controllers\Company.php on line 94.
+ 1 APPPATH\Controllers\Company.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Company.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:41:34 --> Undefined array key 2
+in APPPATH\Controllers\Company.php on line 94.
+ 1 APPPATH\Controllers\Company.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Company.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:44:41 --> Undefined array key 2
+in APPPATH\Controllers\Company.php on line 94.
+ 1 APPPATH\Controllers\Company.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Company.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 14:48:19 --> Undefined array key 2
+in APPPATH\Controllers\Company.php on line 94.
+ 1 APPPATH\Controllers\Company.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Company.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Company->readCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Company))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

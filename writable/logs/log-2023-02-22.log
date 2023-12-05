@@ -1,0 +1,93 @@
+CRITICAL - 2023-02-22 11:09:45 --> syntax error, unexpected token "if"
+in APPPATH\Views\Report-Bending\index.php on line 7.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-bending/index', [], true)
+ 3 APPPATH\Controllers\ReportBending.php(47): view('report-bending/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:10:04 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\Report-Bending\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-bending/index', [], true)
+ 3 APPPATH\Controllers\ReportBending.php(47): view('report-bending/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:10:25 --> Unclosed '{' on line 7
+in APPPATH\Views\Report-Bending\index.php on line 213.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-bending/index', [], true)
+ 3 APPPATH\Controllers\ReportBending.php(47): view('report-bending/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:10:44 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\Report-Bending\index.php on line 8.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-bending/index', [], true)
+ 3 APPPATH\Controllers\ReportBending.php(47): view('report-bending/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:11:53 --> Call to undefined function App\Models\select()
+in APPPATH\Models\TensileModel.php on line 88.
+ 1 APPPATH\Controllers\ReportTensile.php(41): App\Models\TensileModel->getdatareport('2023-02-16', '2023-02-22')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:18:31 --> Undefined constant "start"
+in APPPATH\Views\Report-Bending\index.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-bending/index', [], true)
+ 4 APPPATH\Controllers\ReportBending.php(47): view('report-bending/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportBending->index('2023-02-22', '2023-02-22')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportBending))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:23:10 --> Call to undefined function App\Models\select()
+in APPPATH\Models\TensileModel.php on line 88.
+ 1 APPPATH\Controllers\ReportTensile.php(41): App\Models\TensileModel->getdatareport('2023-02-16', '2023-02-22')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:29:41 --> Undefined array key "batchb_id"
+in APPPATH\Views\Report-Tensile\index.php on line 78.
+ 1 APPPATH\Views\Report-Tensile\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_id"', 'APPPATH\\Views\\Report-Tensile\\index.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:30:16 --> Undefined array key "batchb_id"
+in APPPATH\Views\Report-Tensile\index.php on line 78.
+ 1 APPPATH\Views\Report-Tensile\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_id"', 'APPPATH\\Views\\Report-Tensile\\index.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-22 11:37:23 --> Undefined array key "batchb_id"
+in APPPATH\Views\Report-Tensile\index.php on line 122.
+ 1 APPPATH\Views\Report-Tensile\index.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "batchb_id"', 'APPPATH\\Views\\Report-Tensile\\index.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Report-Tensile\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report-tensile/index', [], true)
+ 5 APPPATH\Controllers\ReportTensile.php(47): view('report-tensile/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ReportTensile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportTensile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

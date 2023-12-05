@@ -1,0 +1,284 @@
+ERROR - 2023-01-04 00:59:30 --> mysqli_sql_exception: Unknown column '5ecompany.companydelete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 00:59:30 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:00:04 --> mysqli_sql_exception: Unknown column '5ecompany.companydelete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:00:04 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-04 01:00:59 --> Undefined variable $result
+in APPPATH\Controllers\Api.php on line 49.
+ 1 APPPATH\Controllers\Api.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Controllers\\Api.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Api->recordindex()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:01:11 --> mysqli_sql_exception: Unknown column '5ecompany.companydelete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:01:11 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:02:16 --> mysqli_sql_exception: Unknown column '5ecompany.companydelete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:02:16 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:04:28 --> mysqli_sql_exception: Unknown column '5ecompany.company_delete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:04:28 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:04:42 --> mysqli_sql_exception: Unknown column '5ecompany.company_delete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:04:42 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:05:23 --> mysqli_sql_exception: Unknown column '5ecompany.company_delete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:05:23 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:05:25 --> mysqli_sql_exception: Unknown column '5ecompany.company_delete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:05:25 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:05:41 --> mysqli_sql_exception: Unknown column '5ecompany.company_delete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:05:41 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:05:49 --> mysqli_sql_exception: Unknown column '5ecompany.company_delete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:05:49 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-04 01:08:22 --> mysqli_sql_exception: Unknown column '5ecompany.company_delete' in 'where clause' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('')
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-04 01:08:22 --> Unknown column '5ecompany.company_delete' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5ecompany`
+WHERE `5ecompany`.`company_delete` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5ecompany`
+WHERE `5ecompany`.`company_delete` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5ecompany`
+WHERE `5ecompany`.`company_delete` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5ecompany`
+WHERE `5ecompany`.`company_delete` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\RestApi.php(91): App\Models\CustomerModel->indexData()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

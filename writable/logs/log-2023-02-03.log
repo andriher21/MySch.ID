@@ -1,0 +1,62 @@
+CRITICAL - 2023-02-03 09:40:41 --> Invalid file: User/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('User/index', [], true)
+ 3 APPPATH\Controllers\User.php(27): view('User/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 09:40:53 --> Invalid file: user/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('user/index', [], true)
+ 3 APPPATH\Controllers\User.php(27): view('user/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 09:41:20 --> Undefined variable $users
+in APPPATH\Views\Users\index.php on line 47.
+ 1 APPPATH\Views\Users\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\Users\\index.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Users/index', [], true)
+ 5 APPPATH\Controllers\User.php(27): view('Users/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 09:41:34 --> Undefined array key "id"
+in APPPATH\Views\Users\index.php on line 51.
+ 1 APPPATH\Views\Users\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Users\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Users/index', [], true)
+ 5 APPPATH\Controllers\User.php(27): view('Users/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 09:49:02 --> Undefined array key "id"
+in APPPATH\Views\Users\index.php on line 125.
+ 1 APPPATH\Views\Users\index.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Users\\index.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Users/index', [], true)
+ 5 APPPATH\Controllers\User.php(28): view('Users/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 09:52:44 --> Undefined array key "id"
+in APPPATH\Views\Users\index.php on line 144.
+ 1 APPPATH\Views\Users\index.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\Users\\index.php', 144)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Users\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Users/index', [], true)
+ 5 APPPATH\Controllers\User.php(28): view('Users/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

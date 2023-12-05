@@ -1,0 +1,174 @@
+CRITICAL - 2023-01-03 03:20:52 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-03 03:27:49 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-03 03:28:49 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-03 03:31:12 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-03 03:32:07 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-03 03:32:08 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-03 03:32:08 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-03 03:32:23 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 181.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-01-03 00:08:49 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'regs2858_igni660' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'regs2858_igni66...', 3306, '', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#3 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#6 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#7 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#11 C:\xampp\htdocs\lltdemo\app\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#12 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#13 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#14 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'regs2858_igni660' in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+#2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#6 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#10 C:\xampp\htdocs\lltdemo\app\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#12 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#13 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-01-03 00:08:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'regs2858_igni660'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(91): CodeIgniter\Database\BaseConnection->initialize()
+ 2 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+ 3 SYSTEMPATH\Session\Session.php(918): session_start()
+ 4 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 5 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 7 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 8 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 9 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+10 APPPATH\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', [])
+11 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+12 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:22:12 --> Call to a member function result_array() on array
+in APPPATH\Models\RecordModel.php on line 43.
+ 1 APPPATH\Controllers\Api.php(46): App\Models\RecordModel->indexData()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Api->recordindex()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:22:44 --> Call to a member function result_array() on array
+in APPPATH\Models\CustomerModel.php on line 43.
+ 1 APPPATH\Controllers\Api.php(90): App\Models\CustomerModel->indexData()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Api->customerindex()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:23:03 --> Call to a member function result_array() on array
+in APPPATH\Models\CustomerModel.php on line 43.
+ 1 APPPATH\Controllers\Api.php(90): App\Models\CustomerModel->indexData()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Api->customerindex()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:23:24 --> Call to a member function result_array() on array
+in APPPATH\Models\CustomerModel.php on line 43.
+ 1 APPPATH\Controllers\Api.php(90): App\Models\CustomerModel->indexData()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Api->customerindex()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 00:23:39 --> Call to a member function result_array() on array
+in APPPATH\Models\CustomerModel.php on line 43.
+ 1 APPPATH\Controllers\Api.php(90): App\Models\CustomerModel->indexData()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Api->customerindex()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-03 02:18:41 --> mysqli_sql_exception: Table 'regs2858_igni660.5ecustomer' doesn't exist in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lltdemo\app\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lltdemo\app\Controllers\Api.php(90): App\Models\CustomerModel->indexData()
+#8 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Api->customerindex()
+#9 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lltdemo\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-03 02:18:41 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 223.
+ 1 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Models\CustomerModel.php(42): CodeIgniter\BaseModel->findAll()
+ 3 APPPATH\Controllers\Api.php(90): App\Models\CustomerModel->indexData()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Api->customerindex()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 02:28:05 --> Call to undefined method App\Controllers\RestApi::get()
+in APPPATH\Controllers\RestApi.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 02:29:55 --> Call to undefined method App\Controllers\RestApi::get()
+in APPPATH\Controllers\RestApi.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 02:30:41 --> Call to undefined method App\Controllers\RestApi::get()
+in APPPATH\Controllers\RestApi.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 02:31:23 --> Too few arguments to function App\Controllers\RestApi::customerindex(), 0 passed in C:\xampp\htdocs\lltdemo\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\RestApi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:33:38 --> Call to undefined method App\Controllers\RestApi::get()
+in APPPATH\Controllers\RestApi.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:35:12 --> Call to undefined method App\Controllers\RestApi::get()
+in APPPATH\Controllers\RestApi.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\RestApi->customerindex('ROOTPATH\\public')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestApi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

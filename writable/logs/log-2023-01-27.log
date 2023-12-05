@@ -1,0 +1,139 @@
+ERROR - 2023-01-27 09:11:27 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `data`\nF...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(126): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('1gtlrldmd8f3d5c...')
+#6 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Session.php(918): session_start()
+#7 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\Services.php(665): CodeIgniter\Session\Session->start()
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+#13 C:\xampp\htdocs\lola\app\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#15 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+#16 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2023-01-27 09:11:27 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `data`
+FROM `5eci_sessions`
+WHERE `id` = \'1gtlrldmd8f3d5cha2d2etalknkc43v2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`
+FROM `5eci_sessions`
+WHERE `id` = \'1gtlrldmd8f3d5cha2d2etalknkc43v2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`
+FROM `5eci_sessions`
+WHERE `id` = \'1gtlrldmd8f3d5cha2d2etalknkc43v2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `data`
+FROM `5eci_sessions`
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Session\Handlers\DatabaseHandler.php(126): CodeIgniter\Database\BaseBuilder->get()
+ 6 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('1gtlrldmd8f3d5cha2d2etalknkc43v2')
+ 7 SYSTEMPATH\Session\Session.php(918): session_start()
+ 8 SYSTEMPATH\Session\Session.php(240): CodeIgniter\Session\Session->startSession()
+ 9 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+10 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+11 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+12 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+13 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+14 APPPATH\Controllers\BaseController.php(51): CodeIgniter\Config\BaseService::__callStatic('session', [])
+15 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+16 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 10:11:30 --> Undefined constant "App\Controllers\transaksi"
+in APPPATH\Controllers\Transaction.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 10:13:11 --> Undefined constant "App\Controllers\transaksi"
+in APPPATH\Controllers\Transaction.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 10:16:16 --> Undefined constant "App\Controllers\transaksi"
+in APPPATH\Controllers\Transaction.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 10:58:20 --> Undefined constant "App\Controllers\transaksi"
+in APPPATH\Controllers\Transaction.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 10:59:29 --> Undefined constant "App\Controllers\transaksi"
+in APPPATH\Controllers\Transaction.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 13:11:29 --> Undefined array key "role_id"
+in APPPATH\Controllers\Transaction.php on line 13.
+ 1 APPPATH\Controllers\Transaction.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role_id"', 'APPPATH\\Controllers\\Transaction.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->daily()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 13:11:52 --> Too few arguments to function App\Controllers\Transaction::printReport(), 0 passed in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Transaction.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 13:12:18 --> Too few arguments to function App\Controllers\Transaction::printReport(), 0 passed in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Transaction.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 13:13:31 --> Undefined constant "App\Controllers\transaksi"
+in APPPATH\Controllers\Transaction.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport('2023-01-27')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 13:14:01 --> Undefined variable $shifts
+in APPPATH\Views\Transaction\report.php on line 160.
+ 1 APPPATH\Views\Transaction\report.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shifts', 'APPPATH\\Views\\Transaction\\report.php', 160)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Transaction\\report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('transaction/report', [], true)
+ 5 APPPATH\Controllers\Transaction.php(59): view('transaction/report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->printReport('2023-01-27')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 13:47:24 --> Cannot use empty array elements in arrays
+in APPPATH\Controllers\Transaction.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-27 13:48:07 --> Undefined array key "vol_on"
+in APPPATH\Controllers\Transaction.php on line 98.
+ 1 APPPATH\Controllers\Transaction.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vol_on"', 'APPPATH\\Controllers\\Transaction.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->exportCsv('2023-01-27')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 13:48:15 --> Undefined array key "vol_on"
+in APPPATH\Controllers\Transaction.php on line 98.
+ 1 APPPATH\Controllers\Transaction.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vol_on"', 'APPPATH\\Controllers\\Transaction.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->exportCsv('2023-01-27')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-27 13:48:30 --> Undefined array key "vol_on"
+in APPPATH\Controllers\Transaction.php on line 98.
+ 1 APPPATH\Controllers\Transaction.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vol_on"', 'APPPATH\\Controllers\\Transaction.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Transaction->exportCsv('2023-01-27')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

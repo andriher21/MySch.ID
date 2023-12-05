@@ -1,0 +1,175 @@
+CRITICAL - 2023-02-13 10:03:13 --> Array to string conversion
+in APPPATH\Controllers\User.php on line 68.
+ 1 APPPATH\Controllers\User.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\User.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:11:09 --> Class "App\Models\TypeVclModel" not found
+in APPPATH\Controllers\BaseController.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(867): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 10:13:03 --> mysqli_sql_exception: Unknown column '5etype_vehicle.typevcl_delete' in 'where clause' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lola\app\Models\TypeVclModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lola\app\Controllers\Flasi.php(22): App\Models\TypeVclModel->indexData()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Flasi->index()
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-13 10:13:03 --> Unknown column '5etype_vehicle.typevcl_delete' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5etype_vehicle`
+WHERE `5etype_vehicle`.`typevcl_delete` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5etype_vehicle`
+WHERE `5etype_vehicle`.`typevcl_delete` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5etype_vehicle`
+WHERE `5etype_vehicle`.`typevcl_delete` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5etype_vehicle`
+WHERE `5etype_vehicle`.`typevcl_delete` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TypeVclModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Flasi.php(22): App\Models\TypeVclModel->indexData()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-13 10:13:28 --> mysqli_sql_exception: Unknown column '5etype_vehicle.typevcl_deleted' in 'where clause' in C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\lola\app\Models\TypeVclModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\lola\app\Controllers\Flasi.php(22): App\Models\TypeVclModel->indexData()
+#8 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\Flasi->index()
+#9 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+#10 C:\xampp\htdocs\lola\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\lola\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-13 10:13:28 --> Unknown column '5etype_vehicle.typevcl_deleted' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `5etype_vehicle`
+WHERE `5etype_vehicle`.`typevcl_deleted` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `5etype_vehicle`
+WHERE `5etype_vehicle`.`typevcl_deleted` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `5etype_vehicle`
+WHERE `5etype_vehicle`.`typevcl_deleted` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `5etype_vehicle`
+WHERE `5etype_vehicle`.`typevcl_deleted` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TypeVclModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Flasi.php(22): App\Models\TypeVclModel->indexData()
+ 9 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:15:34 --> Undefined variable $typevcl
+in APPPATH\Views\Flasi\index.php on line 105.
+ 1 APPPATH\Views\Flasi\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $typevcl', 'APPPATH\\Views\\Flasi\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Flasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('flasi/index', [], true)
+ 5 APPPATH\Controllers\Flasi.php(28): view('flasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:16:23 --> Undefined variable $trans
+in APPPATH\Views\Flasi\index.php on line 168.
+ 1 APPPATH\Views\Flasi\index.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $trans', 'APPPATH\\Views\\Flasi\\index.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Flasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('flasi/index', [], true)
+ 5 APPPATH\Controllers\Flasi.php(28): view('flasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:17:14 --> Undefined array key "flasi_type_vcl"
+in APPPATH\Views\Flasi\index.php on line 168.
+ 1 APPPATH\Views\Flasi\index.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "flasi_type_vcl"', 'APPPATH\\Views\\Flasi\\index.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Flasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('flasi/index', [], true)
+ 5 APPPATH\Controllers\Flasi.php(28): view('flasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:18:08 --> Undefined array key "flasi_type_vcl"
+in APPPATH\Views\Flasi\index.php on line 168.
+ 1 APPPATH\Views\Flasi\index.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "flasi_type_vcl"', 'APPPATH\\Views\\Flasi\\index.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Flasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('flasi/index', [], true)
+ 5 APPPATH\Controllers\Flasi.php(28): view('flasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:18:27 --> Undefined array key "flasi_type_vcl"
+in APPPATH\Views\Flasi\index.php on line 168.
+ 1 APPPATH\Views\Flasi\index.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "flasi_type_vcl"', 'APPPATH\\Views\\Flasi\\index.php', 168)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Flasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('flasi/index', [], true)
+ 5 APPPATH\Controllers\Flasi.php(28): view('flasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Flasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Flasi))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:18:50 --> Undefined array key "trans_type_vcl"
+in APPPATH\Views\Trans\index.php on line 204.
+ 1 APPPATH\Views\Trans\index.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "trans_type_vcl"', 'APPPATH\\Views\\Trans\\index.php', 204)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Trans\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Trans/index', [], true)
+ 5 APPPATH\Controllers\Trans.php(29): view('Trans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Trans->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trans))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:24:26 --> Undefined array key "tiem_flasi"
+in APPPATH\Views\item\index.php on line 150.
+ 1 APPPATH\Views\item\index.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tiem_flasi"', 'APPPATH\\Views\\item\\index.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('item/index', [], true)
+ 5 APPPATH\Controllers\Item.php(28): view('item/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 10:24:37 --> Undefined array key "item_flasi"
+in APPPATH\Views\item\index.php on line 150.
+ 1 APPPATH\Views\item\index.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "item_flasi"', 'APPPATH\\Views\\item\\index.php', 150)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\item\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('item/index', [], true)
+ 5 APPPATH\Controllers\Item.php(28): view('item/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Item->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
